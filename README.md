@@ -18,7 +18,7 @@ A investigation into how Large Language Models (LLMs) process counting tasks, co
 
 > **"Is there a hidden state layer that contains a representation of the running count of matching words, while processing the list of words?"**
 
-This project addresses this question through systematic experimentation using counterfactual activation patching and multi-model behavioral analysis.
+This project addresses this question through experimentation using counterfactual activation patching.
 
 ## 📊 Key Findings
 
@@ -42,6 +42,16 @@ Our benchmark reveals significant performance differences across models
   <img src="results/figures/overall_correct_rates.png" alt="Accuracy Before vs After Intervention" width="500"/>
   <p><em>Model accuracy before and after counterfactual interventions</em></p>
 </div>
+### Important Methodological Note
+
+> **⚠️ Chat Template Usage Difference**
+>
+> The **benchmark evaluation** and **causal mediation analysis** use different prompt formatting approaches, which explains accuracy differences for the same model:
+>
+> - **Benchmark**: Uses **raw model outputs without chat templates** to ensure fair comparison across different model families (since each model has different chat template formats)
+> - **Causal Analysis**: Uses **Phi-4 with proper chat templates** for more controlled intervention analysis
+>
+> This methodological difference means Phi-4's accuracy in benchmark vs. causal analysis may differ, as chat templates can significantly impact model performance. The benchmark provides cross-model comparison, while causal analysis provides mechanistic insights.
 
 ## 🗂️ Project Structure
 
@@ -169,17 +179,6 @@ effects = analyzer.run_analysis("data/intervention_pairs.json")
 - **Controlled formatting**: Consistent prompt structure across models
 - **Extraction method**: Regex-based numerical answer parsing
 
-### Important Methodological Note
-
-> **⚠️ Chat Template Usage Difference**
-> 
-> The **benchmark evaluation** and **causal mediation analysis** use different prompt formatting approaches, which explains accuracy differences for the same model:
-> 
-> - **Benchmark**: Uses **raw model outputs without chat templates** to ensure fair comparison across different model families (since each model has different chat template formats)
-> - **Causal Analysis**: Uses **Phi-4 with proper chat templates** for more controlled intervention analysis
-> 
-> This methodological difference means Phi-4's accuracy in benchmark vs. causal analysis may differ, as chat templates can significantly impact model performance. The benchmark provides cross-model comparison, while causal analysis provides mechanistic insights.
-
 ### Causal Mediation
 - **Intervention method**: Counterfactual activation patching
 - **Target**: Single word replacement (target → distractor)
@@ -210,32 +209,13 @@ Currently supports HuggingFace transformer models:
 - Gemma family (with modifications)
 
 ### Hardware Requirements
-- **GPU**: NVIDIA GPU with 24GB+ VRAM recommended
+- **GPU**: NVIDIA GPU A100
 - **CPU**: Multi-core processor for data processing
 - **Memory**: 32GB+ RAM for large model analysis
-
-## 📝 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{llm-counting-mechanisms-2025,
-  title={LLM Counting Mechanisms: Behavioral Analysis and Causal Mediation},
-  author={[Tenghai Long]},
-  year={2025},
-  url={https://github.com/your-username/llm-counting-mechanisms}
-}
-```
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- HuggingFace for transformer model implementations
-- The open-source LLM community for model access
-- Research inspired by mechanistic interpretability literature
 
 ---
 
