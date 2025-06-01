@@ -10,11 +10,9 @@ A investigation into how Large Language Models (LLMs) process counting tasks, co
 
 ## 📚 Quick Navigation
 
-- 📊 **[View Results](#key-findings)** - See performance comparisons and causal analysis findings
 - 📁 **[Browse Data](data/)** - Complete experimental datasets and results
 - 📝 **[Run Experiments](notebooks/)** - Original Google Colab notebooks
-- 🐍 **[Use Code](src/)** - Production-ready Python modules
-- 🛠️ **[Setup Instructions](#quick-start)** - Three ways to get started
+- 🐍 **[Use Code](src/)** - Python modules
 
 ## 🎯 Research Question
 

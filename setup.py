@@ -16,11 +16,11 @@ setup(
     description="Behavioral analysis and causal mediation for LLM counting tasks",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/llm-counting-mechanisms",
+    url="https://github.com/theohlong/llm-counting-mechanisms",
     project_urls={
-        "Bug Tracker": "https://github.com/your-username/llm-counting-mechanisms/issues",
-        "Documentation": "https://github.com/your-username/llm-counting-mechanisms",
-        "Source Code": "https://github.com/your-username/llm-counting-mechanisms",
+        "Bug Tracker": "https://github.com/theohlong/llm-counting-mechanisms/issues",
+        "Documentation": "https://github.com/theohlong/llm-counting-mechanisms",
+        "Source Code": "https://github.com/theohlong/llm-counting-mechanisms",
     },
     classifiers=[
         "Development Status :: 4 - Beta",
