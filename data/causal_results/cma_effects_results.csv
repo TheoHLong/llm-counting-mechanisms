@@ -1,0 +1,2001 @@
+pair_id,layer_idx,TE,IE,original_output,intervention_output,ie_output,original_text,intervention_text,ie_text,expected_original,expected_intervention,original_correct,intervention_correct,patch_positions,ie_positions,num_patch_positions,num_ie_positions,category,intervention_position,list_length,original_word,intervention_word
+0,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,13,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+0,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[88],"[88, 89]",1,2,animal,4,7,leopard,heel
+1,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,13,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,14,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+1,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75, 76]",2,3,emotion,0,5,fascinated,baseball
+2,0,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,1,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,2,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,3,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,4,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,5,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,6,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,7,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,8,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,9,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,10,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,11,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,12,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,13,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,14,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,15,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,16,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,17,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,18,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+2,19,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[85, 86]","[85, 86, 87]",2,3,animal,3,7,pigeon,forklift
+3,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,14,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,15,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,16,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,17,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+3,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[99],"[99, 100]",1,2,color,6,8,burgundy,melon
+4,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,8,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,9,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,10,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,11,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,12,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+4,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]","[88, 89]",2,2,sport,4,7,rugby,beige
+5,0,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,1,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,2,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,3,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,4,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,5,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,6,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,7,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,8,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,9,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,10,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,11,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,12,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,13,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,14,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,15,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,16,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,17,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,18,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+5,19,0,0,6,6,6,(6),(6),(6),6,5,True,False,"[90, 91]","[90, 91]",2,2,color,4,8,scarlet,mulberry
+6,0,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,1,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,2,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,3,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,4,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,5,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,6,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,7,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,8,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,9,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,10,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,11,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,12,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,13,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,14,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,15,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,16,0,1,3,3,4,(3),(3),(4),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,17,0,1,3,3,4,(3),(3),(4),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,18,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+6,19,0,0,3,3,3,(3),(3),(3),5,4,False,False,"[97, 98]",[97],2,1,building,6,7,church,welder
+7,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+7,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[83, 84]","[83, 84]",2,2,clothing,2,5,cardigan,cloudy
+8,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+8,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75, 76]","[74, 75]",3,2,sport,0,5,skiing,periwinkle
+9,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,11,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,12,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+9,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[78, 79, 80]",[78],3,1,animal,1,5,wolf,loafers
+10,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,11,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,12,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+10,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,sport,0,6,cricket,tornado
+11,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+11,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[81],"[81, 82]",1,2,emotion,2,8,ecstatic,neck
+12,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+12,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[77],"[77, 78]",1,2,sport,1,5,hunting,green
+13,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,14,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,15,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,16,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,17,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,18,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+13,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[94],"[94, 95]",1,2,sport,5,6,diving,bone
+14,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,13,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,14,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,15,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,16,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,17,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+14,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[103, 104]",[103],2,1,body_part,7,8,bone,sailing
+15,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,11,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,12,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+15,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]",[74],3,1,fruit,0,6,pear,innocent
+16,0,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,1,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,2,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,3,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,4,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,5,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,6,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,7,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,8,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,9,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,10,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,11,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,12,0,-1,1,1,0,(1),(1),(0),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,13,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,14,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,15,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,16,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,17,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,18,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+16,19,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[78, 79]",[78],2,1,building,1,8,factory,romper
+17,0,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,1,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,2,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,3,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,4,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,5,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,6,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,7,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,8,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,9,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,10,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,11,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,12,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,13,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,14,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,15,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,16,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,17,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,18,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+17,19,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[79, 80]","[79, 80]",2,2,weather,1,7,flood,hopeful
+18,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,12,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+18,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[88, 89]",[88],2,1,emotion,3,7,happy,workbench
+19,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+19,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,clothing,3,6,tie,orangutan
+20,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,13,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,14,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,15,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,16,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+20,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[94],"[94, 95]",1,2,building,5,8,garage,boat
+21,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,14,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,15,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+21,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[81],[81],1,1,fruit,2,5,melon,hat
+22,0,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,1,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,2,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,3,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,4,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,5,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,6,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,7,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,8,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,9,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,10,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,11,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,12,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,13,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,14,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,15,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,16,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,17,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,18,-1,0,3,2,3,(3),(2),(3),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+22,19,-1,0,3,2,3,(3),(2),(3),4,3,False,False,[100],"[100, 101, 102]",1,3,vehicle,7,8,snowplow,shed
+23,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,12,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+23,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[77, 78]","[77, 78]",2,2,tool,1,6,rake,confused
+24,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+24,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[93],[93],1,1,clothing,5,8,robe,eye
+25,0,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,1,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,2,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,3,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,4,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,5,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,6,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,7,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,8,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,9,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,10,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,11,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,12,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,13,-1,0,5,4,5,(5),(4),(5),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,14,-1,0,5,4,5,(5),(4),(5),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,15,-1,0,5,4,5,(5),(4),(5),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,16,-1,0,5,4,5,(5),(4),(5),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,17,-1,0,5,4,5,(5),(4),(5),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,18,-1,0,5,4,5,(5),(4),(5),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+25,19,-1,0,5,4,5,(5),(4),(5),5,4,True,True,[88],[88],1,1,clothing,3,8,robe,happy
+26,0,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,1,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,2,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,3,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,4,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,5,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,6,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,7,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,8,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,9,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,10,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,11,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,12,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,13,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,14,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,15,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,16,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,17,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,18,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+26,19,0,0,4,4,4,(4),(4),(4),5,4,False,True,[83],"[83, 84]",1,2,body_part,2,7,liver,gray
+27,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+27,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]","[74, 75]",2,2,vehicle,0,8,ambulance,teal
+28,0,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,1,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,2,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,3,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,4,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,5,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,6,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,7,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,8,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,9,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,10,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,11,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,12,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,13,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,14,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,15,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,16,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,17,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,18,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+28,19,0,0,3,3,3,(3),(3),(3),4,3,False,True,[78],"[78, 79]",1,2,sport,1,6,camping,chin
+29,0,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,1,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,2,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,3,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,4,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,5,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,6,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,7,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,8,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,9,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,10,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,11,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,12,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,13,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,14,1,1,1,2,2,(1),(2),(2),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,15,1,0,1,2,1,(1),(2),(1),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,16,1,0,1,2,1,(1),(2),(1),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,17,1,0,1,2,1,(1),(2),(1),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,18,1,0,1,2,1,(1),(2),(1),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+29,19,1,0,1,2,1,(1),(2),(1),1,0,True,False,"[90, 91]","[90, 91, 92]",2,3,tool,4,6,screwdriver,bicycle
+30,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,11,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,12,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+30,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[77, 78]","[77, 78]",2,2,building,1,8,palace,aqua
+31,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,13,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,14,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+31,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,animal,0,5,turkey,forehead
+32,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,10,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,11,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,12,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+32,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[96, 97]",[96],2,1,tool,6,8,clamp,shoulder
+33,0,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,1,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,2,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,3,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,4,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,5,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,6,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,7,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,8,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,9,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,10,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,11,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,12,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,13,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,14,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,15,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,16,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,17,-1,-1,1,0,0,(1),(0),(0),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,18,-1,0,1,0,1,(1),(0),(1),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+33,19,-1,0,1,0,1,(1),(0),(1),2,1,False,False,"[93, 94]",[93],2,1,building,5,6,warehouse,basketball
+34,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+34,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,body_part,4,6,toe,koala
+35,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+35,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]",[85],2,1,body_part,3,6,lung,cyclone
+36,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,13,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,14,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+36,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[81, 82]","[81, 82]",2,2,tool,2,6,scissors,scarlet
+37,0,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,1,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,2,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,3,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,4,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,5,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,6,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,7,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,8,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,9,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,10,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,11,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,12,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,13,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,14,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,15,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,16,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,17,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,18,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+37,19,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83, 84]","[82, 83, 84]",3,3,building,2,6,skyscraper,passionfruit
+38,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,14,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,15,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,16,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,17,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,18,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+38,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[88, 89]","[88, 89]",2,2,building,4,7,windmill,gown
+39,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+39,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[94],"[94, 95]",1,2,clothing,5,7,overalls,hospital
+40,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,14,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,15,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,16,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,17,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+40,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[101, 102]","[101, 102]",2,2,sport,7,8,rugby,iguana
+41,0,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,1,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,2,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,3,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,4,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,5,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,6,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,7,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,8,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,9,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,10,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,11,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,12,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,13,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,14,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,15,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,16,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,17,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,18,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+41,19,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[95, 96]",[95],2,1,weather,6,8,ice,elephant
+42,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,13,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,14,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,15,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,16,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,17,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+42,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,[91],"[91, 92]",1,2,clothing,4,6,underwear,rust
+43,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,14,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+43,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[95, 96, 97]","[95, 96]",3,2,clothing,5,6,shorts,pigeon
+44,0,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,1,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,2,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,3,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,4,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,5,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,6,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,7,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,8,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,9,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,10,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,11,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,12,0,-1,2,2,1,(2),(2),(1),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,13,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,14,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,15,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,16,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,17,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,18,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+44,19,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[89, 90]","[89, 90]",2,2,body_part,4,7,muscle,crowbar
+45,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,10,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,11,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,12,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+45,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[79, 80, 81]","[79, 80]",3,2,sport,1,7,skiing,dolphin
+46,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+46,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]","[85, 86, 87, 88]",2,4,sport,3,5,aerobics,canary
+47,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,12,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+47,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[74, 75]",[74],2,1,fruit,0,7,fig,amazed
+48,0,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,1,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,2,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,3,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,4,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,5,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,6,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,7,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,8,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,9,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,10,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,11,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,12,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,13,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,14,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,15,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,16,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,17,-1,0,6,5,6,(6),(5),(6),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,18,-1,0,6,5,6,(6),(5),(6),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+48,19,-1,0,6,5,6,(6),(5),(6),6,5,True,True,[80],[80],1,1,weather,2,8,wind,fish
+49,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,14,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,15,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,16,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,17,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,18,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+49,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[97],[97],1,1,building,6,7,hotel,cow
+50,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+50,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[89, 90]","[89, 90]",2,2,weather,4,7,fierce,cardigan
+51,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,13,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,14,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,15,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,16,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,17,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,18,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+51,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,building,0,6,barn,starfruit
+52,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+52,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[80, 81]","[80, 81]",2,2,tool,2,6,chisel,calm
+53,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+53,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]","[90, 91]",2,2,weather,4,6,sleet,salmon
+54,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+54,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[85, 86]","[85, 86]",2,2,color,3,5,beige,cottage
+55,0,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,1,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,2,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,3,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,4,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,5,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,6,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,7,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,8,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,9,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,10,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,11,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,12,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,13,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,14,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,15,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,16,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,17,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,18,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+55,19,0,0,2,2,2,(2),(2),(2),3,2,False,True,"[78, 79]","[78, 79]",2,2,building,1,5,palace,scared
+56,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,13,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,14,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,15,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+56,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]","[85, 86]",2,2,emotion,3,7,brave,plum
+57,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+57,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[82, 83]",[82],2,1,clothing,2,7,shirt,forklift
+58,0,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,1,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,2,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,3,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,4,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,5,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,6,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,7,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,8,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,9,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,10,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,11,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,12,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,13,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,14,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,15,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,16,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,17,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,18,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+58,19,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[84, 85]",[84],2,1,clothing,2,7,dress,salmon
+59,0,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,1,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,2,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,3,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,4,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,5,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,6,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,7,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,8,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,9,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,10,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,11,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,12,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,13,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,14,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,15,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,16,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,17,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,18,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+59,19,0,0,0,0,0,(0),(0),(0),1,0,False,True,"[87, 88]",[87],2,1,sport,3,7,dance,bored
+60,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,13,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,14,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,15,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+60,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[85, 86]",[85],2,1,fruit,3,6,berry,flood
+61,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+61,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[90, 91]",[90],2,1,vehicle,4,8,car,garage
+62,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,14,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,16,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+62,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[83],[83],1,1,body_part,2,5,eye,mist
+63,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,12,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,13,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+63,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[87, 88]",[87],2,1,body_part,3,8,neck,convertible
+64,0,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,1,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,2,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,3,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,4,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,5,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,6,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,7,-2,-2,4,2,2,(4),(2),(2),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,8,-2,-2,4,2,2,(4),(2),(2),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,9,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,10,-2,-2,4,2,2,(4),(2),(2),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,11,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,12,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,13,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,14,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,15,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,16,-2,-1,4,2,3,(4),(2),(3),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,17,-2,0,4,2,4,(4),(2),(4),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,18,-2,0,4,2,4,(4),(2),(4),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+64,19,-2,0,4,2,4,(4),(2),(4),4,3,True,False,[84],"[84, 85]",1,2,tool,3,7,rake,cap
+65,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,13,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,14,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,15,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+65,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[91, 92]","[91, 92, 93]",2,3,body_part,4,6,intestine,koala
+66,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,11,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,12,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+66,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,[74],[74],1,1,animal,0,7,owl,bra
+67,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+67,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[89],[89],1,1,vehicle,3,5,ship,heels
+68,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,13,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+68,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,fruit,0,6,peach,pickaxe
+69,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,13,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,14,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,15,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+69,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,[81],[81],1,1,weather,2,8,cloud,belt
+70,0,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,1,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,2,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,3,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,4,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,5,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,6,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,7,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,8,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,9,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,10,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,11,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,12,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,13,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,14,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,15,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,16,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,17,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,18,0,1,4,4,5,(4),(4),(5),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+70,19,0,0,4,4,4,(4),(4),(4),4,3,True,False,"[78, 79]","[78, 79]",2,2,color,1,8,beige,speedboat
+71,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,12,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,13,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+71,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[75, 76]","[75, 76]",2,2,clothing,0,6,boots,cruise
+72,0,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,1,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,2,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,3,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,4,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,5,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,6,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,7,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,8,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,9,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,10,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,11,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,12,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,13,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,14,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,15,0,1,1,1,2,(1),(1),(2),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,16,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,17,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,18,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+72,19,0,0,1,1,1,(1),(1),(1),1,0,True,False,"[93, 94, 95]","[93, 94]",3,2,tool,5,7,rake,stomach
+73,0,-1,-1,2,1,1,(2),(1),(1),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,1,-1,-1,2,1,1,(2),(1),(1),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,2,-1,-1,2,1,1,(2),(1),(1),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,3,-1,-1,2,1,1,(2),(1),(1),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,4,-1,-2,2,1,0,(2),(1),(0),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,5,-1,-2,2,1,0,(2),(1),(0),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,6,-1,-2,2,1,0,(2),(1),(0),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,7,-1,-2,2,1,0,(2),(1),(0),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,8,-1,-2,2,1,0,(2),(1),(0),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,9,-1,-2,2,1,0,(2),(1),(0),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,10,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,11,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,12,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,13,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,14,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,15,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,16,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,17,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,18,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+73,19,-1,0,2,1,2,(2),(1),(2),1,0,False,False,"[78, 79]","[78, 79]",2,2,tool,1,6,spade,bored
+74,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,13,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,14,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,15,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+74,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[82],"[82, 83]",1,2,building,2,5,cabin,bone
+75,0,-2,-2,3,1,1,(3),(1),(1),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,1,-2,-2,3,1,1,(3),(1),(1),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,2,-2,-2,3,1,1,(3),(1),(1),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,3,-2,-2,3,1,1,(3),(1),(1),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,4,-2,-2,3,1,1,(3),(1),(1),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,5,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,6,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,7,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,8,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,9,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,10,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,11,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,12,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,13,-2,-1,3,1,2,(3),(1),(2),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,14,-2,0,3,1,3,(3),(1),(3),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,15,-2,0,3,1,3,(3),(1),(3),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,16,-2,0,3,1,3,(3),(1),(3),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,17,-2,0,3,1,3,(3),(1),(3),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,18,-2,0,3,1,3,(3),(1),(3),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+75,19,-2,0,3,1,3,(3),(1),(3),2,1,False,True,"[74, 75, 76]","[74, 75, 76]",3,3,vehicle,0,8,hatchback,skateboard
+76,0,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,1,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,2,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,3,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,4,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,5,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,6,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,7,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,8,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,9,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,10,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,11,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,12,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+76,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,clothing,0,6,shirt,guilty
+77,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,14,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,15,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,16,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+77,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75, 76, 77]",2,4,sport,0,5,aerobics,apartment
+78,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+78,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]","[74, 75]",2,2,tool,0,6,chainsaw,angry
+79,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+79,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[94, 95]",[94],2,1,vehicle,5,8,pickup,thigh
+80,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,12,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+80,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[74, 75]",[74],2,1,animal,0,8,cow,diving
+81,0,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,1,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,2,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,3,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,4,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,5,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,6,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,7,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,8,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,9,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,10,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,11,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,12,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,13,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,14,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,15,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,16,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,17,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,18,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+81,19,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[96, 97]",[96],2,1,sport,5,7,boxing,slippers
+82,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,12,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+82,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[82, 83, 84]","[82, 83]",3,2,weather,2,6,overcast,raspberry
+83,0,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,1,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,2,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,3,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,4,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,5,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,6,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,7,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,8,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,9,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,10,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,11,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,12,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,13,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,14,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,15,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,16,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,17,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,18,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+83,19,0,0,1,1,1,(1),(1),(1),2,1,False,True,"[81, 82]","[81, 82]",2,2,vehicle,2,5,harvester,squid
+84,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+84,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[81, 82]","[81, 82]",2,2,tool,2,5,grinder,subway
+85,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,13,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,14,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,15,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+85,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95, 96]",2,3,emotion,5,6,fascinated,greenhouse
+86,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,11,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,12,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+86,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[94, 95]","[94, 95]",2,2,color,5,7,turquoise,theater
+87,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,11,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,12,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,18,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+87,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[74, 75, 76]","[74, 75]",3,2,fruit,0,7,mulberry,bikini
+88,0,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,1,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,2,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,3,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,4,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,5,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,6,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,7,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,8,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,9,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,10,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,11,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,12,-1,-1,3,2,2,(3),(2),(2),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,13,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,14,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,15,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,16,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,17,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,18,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+88,19,-1,0,3,2,3,(3),(2),(3),4,3,False,False,"[82, 83]","[82, 83]",2,2,fruit,2,8,starfruit,afraid
+89,0,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,1,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,2,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,3,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,4,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,5,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,6,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,7,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,8,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,9,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,10,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,11,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,12,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,13,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,14,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,15,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,16,-1,-1,6,5,5,(6),(5),(5),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,17,-1,0,6,5,6,(6),(5),(6),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,18,-1,0,6,5,6,(6),(5),(6),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+89,19,-1,0,6,5,6,(6),(5),(6),6,5,True,True,[78],"[78, 79, 80]",1,3,fruit,1,8,rambutan,market
+90,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,10,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,11,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,12,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+90,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[82, 83]","[82, 83, 84]",2,3,vehicle,2,5,hatchback,aqua
+91,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+91,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[85, 86]",[85],2,1,building,3,6,school,salmon
+92,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,10,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,11,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,12,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,13,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,14,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+92,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,"[74, 75]","[74, 75]",2,2,emotion,0,5,amazed,burgundy
+93,0,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,1,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,2,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,3,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,4,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,5,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,6,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,7,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,8,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,9,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,10,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,11,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,12,-1,-1,6,5,5,(6),(5),(5),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,13,-1,0,6,5,6,(6),(5),(6),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,14,-1,0,6,5,6,(6),(5),(6),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,15,-1,0,6,5,6,(6),(5),(6),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,16,-1,0,6,5,6,(6),(5),(6),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,17,-1,0,6,5,6,(6),(5),(6),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,18,-1,0,6,5,6,(6),(5),(6),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+93,19,-1,0,6,5,6,(6),(5),(6),5,4,False,False,"[85, 86, 87]","[85, 86]",3,2,animal,3,7,crocodile,snowplow
+94,0,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,1,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,2,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,3,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,4,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,5,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,6,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,7,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,8,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,9,-1,-1,3,2,2,(3),(2),(2),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,10,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,11,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,12,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,13,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,14,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,15,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,16,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,17,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,18,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+94,19,-1,0,3,2,3,(3),(2),(3),3,2,True,True,[96],"[96, 97]",1,2,color,5,7,teal,pliers
+95,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,4,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,5,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,6,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,7,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,8,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,9,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,10,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,11,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,12,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,17,-1,1,1,0,2,(1),(0),(2),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+95,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,[83],"[83, 84, 85, 86]",1,4,emotion,2,6,sympathetic,fort
+96,0,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,1,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,2,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,3,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,4,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,5,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,6,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,7,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,8,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,9,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,10,-1,-1,4,3,3,(4),(3),(3),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,11,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,12,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,13,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,14,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,15,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,16,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,17,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,18,-1,1,4,3,5,(4),(3),(5),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+96,19,-1,0,4,3,4,(4),(3),(4),4,3,True,True,"[83, 84, 85, 86]","[83, 84, 85]",4,3,fruit,2,7,strawberry,sympathetic
+97,0,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,1,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,2,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,3,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,4,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,5,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,6,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,7,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,8,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,9,-1,-1,2,1,1,(2),(1),(1),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,10,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,11,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,12,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,13,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,14,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,15,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,16,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,17,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,18,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+97,19,-1,0,2,1,2,(2),(1),(2),2,1,True,True,"[75, 76]",[75],2,1,body_part,0,6,neck,plum
+98,0,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,1,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,2,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,3,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,4,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,5,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,6,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,7,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,8,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,9,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,10,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,11,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,12,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,13,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,14,-1,-1,5,4,4,(5),(4),(4),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,15,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,16,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,17,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,18,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+98,19,-1,0,5,4,5,(5),(4),(5),5,4,True,True,"[100, 101]","[100, 101, 102, 103]",2,4,fruit,6,8,cantaloupe,cobalt
+99,0,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,1,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,2,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,3,-1,-1,1,0,0,(1),(0),(0),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,4,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,5,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,6,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,7,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,8,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,9,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,10,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,11,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,12,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,13,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,14,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,15,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,16,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,17,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,18,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral
+99,19,-1,0,1,0,1,(1),(0),(1),1,0,True,True,"[83, 84, 85]",[83],3,1,tool,2,5,toolbox,cathedral

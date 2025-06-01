@@ -1,0 +1,1001 @@
+type,list_items,list_length,expected_answer,model_full_response,extracted_model_answer,correct
+body_part,"('optimistic', 'leg', 'khaki', 'billiards', 'tennis', 'greenhouse')",6,1,(1),1,True
+building,"('swimming', 'eye', 'cathedral', 'hippo', 'grapefruit')",5,1,(1),1,True
+building,"('university', 'shed', 'jaw', 'skirt', 'snow')",5,2,(1),1,False
+emotion,"('whale', 'elated', 'toe', 'interested', 'passionate')",5,3,(3),3,True
+vehicle,"('thankful', 'swimming', 'tunnel', 'nervous', 'strawberry', 'tunnel')",6,0,(0),0,True
+emotion,"('freezing', 'optimistic', 'content', 'chapel', 'peaceful', 'cream')",6,3,(3),3,True
+animal,"('crow', 'snake', 'cow', 'planetarium', 'lime', 'elderberry', 'date')",7,3,(3),3,True
+sport,"('powerlifting', 'billiards', 'fencing', 'tennis', 'rugby', 'pilates', 'basketball', 'archery', 'skateboard')",9,9,(6),6,False
+weather,"('clear', 'goat', 'mild', 'humidity', 'calm', 'downpour', 'mist', 'cardigan')",8,6,(3),3,False
+animal,"('kangaroo', 'alligator', 'mouse', 'bear', 'goat', 'cat')",6,6,(6),6,True
+weather,"('lychee', 'semi', 'magenta', 'warm', 'bridge', 'scared', 'drizzle', 'office', 'hot', 'gentle')",10,4,(3),3,False
+body_part,"('toe', 'brain', 'octopus', 'hand', 'finger', 'intestine', 'platinum', 'skin')",8,6,(5),5,False
+animal,"('goat', 'crocodile', 'jaguar', 'robin', 'monkey', 'shrimp', 'crab')",7,7,(7),7,True
+weather,"('fog', 'gentle', 'frost', 'calm', 'dress', 'cool', 'cream')",7,5,(3),3,False
+emotion,"('ashamed', 'excited', 'kayaking', 'shocked', 'passionate', 'slippers')",6,4,(3),3,False
+emotion,"('happy', 'loving', 'ecstatic', 'pessimistic', 'guilty', 'confident', 'satisfied', 'curious', 'sad', 'afraid')",10,10,(5),5,False
+color,"('violet', 'khaki', 'ivory', 'magenta', 'rust', 'platinum')",6,6,(3),3,False
+building,"('cream', 'sweater', 'market', 'convent', 'gloves')",5,2,(1),1,False
+body_part,"('brain', 'stomach', 'thunder', 'parrot', 'hockey', 'mosque')",6,2,(2),2,True
+animal,"('crocodile', 'tie', 'eye', 'uniform', 'cardinal', 'van')",6,2,(2),2,True
+sport,"('football', 'darts', 'golf', 'hunting', 'volleyball', 'dance', 'shorts')",7,6,(3),3,False
+animal,"('lilac', 'happy', 'neck', 'lobster', 'bicycle', 'lion', 'ashamed', 'berry', 'confident')",9,2,(2),2,True
+fruit,"('surprised', 'kidney', 'plum', 'pigeon', 'sleet', 'bridge', 'pomegranate')",7,2,(2),2,True
+sport,"('cheerleading', 'fencing', 'powerlifting', 'skateboard', 'basketball')",5,5,(3),3,False
+color,"('salmon', 'peach', 'ivory', 'orange', 'platinum', 'cream', 'azure')",7,7,(4),4,False
+vehicle,"('truck', 'bus', 'firetruck', 'jet', 'convertible', 'speedboat', 'rust')",7,6,(3),3,False
+vehicle,"('swimsuit', 'swimsuit', 'swimming', 'crane', 'pear', 'top', 'elderberry', 'warehouse')",8,1,(0),0,False
+clothing,"('blouse', 'vest', 'forklift', 'pajamas', 'gloves', 'sweater', 'sleet', 'heel', 'tunic')",9,6,(5),5,False
+clothing,"('lobster', 'blower', 'sandals', 'scooter', 'avocado', 'bus', 'tongue', 'koala', 'kangaroo', 'brown')",10,1,(2),2,False
+body_part,"('pigeon', 'lathe', 'pig', 'hair', 'trowel', 'silver', 'windy', 'grateful', 'windmill', 'pickaxe')",10,1,(1),1,True
+tool,"('sailboat', 'crab', 'bandsaw', 'cold', 'barn', 'vise', 'file', 'screwdriver', 'drill', 'eyelash')",10,5,(5),5,True
+clothing,"('gown', 'cardigan', 'melon', 'bored', 'loafers', 'jacket', 'archery')",7,4,(3),3,False
+tool,"('coat', 'clamp', 'pruner', 'mouth', 'welder', 'saw')",6,4,(3),3,False
+emotion,"('shower', 'heat', 'cheetah', 'judo', 'bicycle', 'bodybuilding', 'weightlifting', 'scared')",8,1,(1),1,True
+weather,"('heel', 'storm', 'turkey', 'sedan', 'level', 'hospital')",6,1,(1),1,True
+body_part,"('tornado', 'blower', 'mouth', 'passionfruit', 'fascinated', 'dog')",6,1,(1),1,True
+weather,"('fog', 'lightning', 'warm', 'breezy', 'clear')",5,5,(3),3,False
+vehicle,"('train', 'garbage', 'motorcycle', 'ship', 'cargo', 'sailboat', 'tractor', 'ferry', 'snowplow', 'truck')",10,10,(6),6,False
+animal,"('snake', 'heat', 'kayak', 'toad', 'horse')",5,3,(3),3,True
+building,"('bar', 'restaurant', 'cathedral', 'hotel', 'tunnel', 'garage', 'factory', 'synagogue', 'mall')",9,9,(5),5,False
+building,"('cafe', 'mosque', 'greenhouse', 'motel', 'bunker', 'cabin', 'shop')",7,7,(3),3,False
+weather,"('humidity', 'drizzle', 'blizzard', 'heat', 'karate')",5,4,(2),2,False
+vehicle,"('cruise', 'tanker', 'sailboat', 'van', 'train', 'jellyfish', 'kayak', 'cargo')",8,7,(3),3,False
+clothing,"('factory', 'shoes', 'suit', 'jacket', 'boots', 'slippers', 'jet', 'skirt', 'scarf', 'loafers')",10,8,(6),6,False
+color,"('cobalt', 'currant', 'pink', 'bronze', 'white', 'periwinkle', 'yacht', 'swimming', 'olive')",9,6,(4),4,False
+sport,"('bowling', 'skateboard', 'jeans', 'chapel', 'sympathetic')",5,2,(1),1,False
+body_part,"('cat', 'library', 'jaw', 'palace', 'thunder')",5,1,(1),1,True
+tool,"('vise', 'sandpaper', 'golf', 'level', 'drill', 'ruler', 'screwdriver', 'knife', 'ladder', 'pig')",10,8,(5),5,False
+animal,"('hoe', 'gymnastics', 'lion', 'jellyfish', 'toad', 'crocodile', 'chicken', 'eagle')",8,6,(5),5,False
+fruit,"('coat', 'wagon', 'wagon', 'jackfruit', 'freezing', 'boots', 'face', 'sheep', 'mist')",9,1,(1),1,True
+fruit,"('temple', 'hopeful', 'cinema', 'jellyfish', 'lime', 'pigeon', 'ivory', 'rambutan', 'motel', 'typhoon')",10,2,(3),3,False
+building,"('tricycle', 'lime', 'bus', 'pickup', 'compressor', 'ivory', 'maroon', 'peach', 'archery', 'fishing')",10,0,(0),0,True
+fruit,"('yoga', 'tennis', 'helicopter', 'stepladder', 'hail', 'lighthouse', 'saw')",7,0,(0),0,True
+animal,"('mango', 'whale', 'parrot', 'deer', 'goat')",5,4,(3),3,False
+animal,"('green', 'castle', 'tractor', 'jumpsuit', 'purple', 'ice', 'yoga', 'harvester', 'windy')",9,0,(0),0,True
+clothing,"('mouth', 'tunic', 'skyscraper', 'beige', 'apple')",5,1,(1),1,True
+clothing,"('gown', 'jeans', 'jacket', 'loafers', 'slippers', 'sandals')",6,6,(6),6,True
+sport,"('basketball', 'tennis', 'yoga', 'karate', 'jigsaw', 'rowing', 'skateboard')",7,6,(3),3,False
+tool,"('yoga', 'warehouse', 'hippo', 'flats', 'duck', 'shop', 'calm', 'delivery', 'aqua')",9,0,(2),2,False
+body_part,"('mouth', 'shed', 'leg', 'speedboat', 'kayaking', 'dance', 'helicopter', 'shoulder', 'hurricane', 'toe')",10,4,(3),3,False
+tool,"('palace', 'castle', 'observatory', 'shop', 'eyelash', 'poncho', 'parrot')",7,0,(0),0,True
+emotion,"('innocent', 'afraid', 'fascinated', 'calm', 'depressed', 'thankful', 'bored')",7,7,(4),4,False
+animal,"('karate', 'turkey', 'beige', 'bird', 'helicopter', 'gymnastics', 'hippo', 'shrimp')",8,4,(3),3,False
+animal,"('frog', 'zebra', 'shears', 'shrimp', 'bear', 'shovel', 'horse', 'wolf', 'koala')",9,7,(5),5,False
+emotion,"('pleased', 'happy', 'ashamed', 'thankful', 'fascinated', 'depressed', 'bird', 'optimistic', 'blueberry', 'orange')",10,7,(5),5,False
+tool,"('anvil', 'wrench', 'brain', 'shears', 'mower', 'restaurant', 'tiger', 'confused', 'jigsaw', 'welder')",10,6,(4),4,False
+color,"('bronze', 'turquoise', 'cobalt', 'fuchsia', 'lavender', 'cyan', 'navy', 'blue', 'burgundy')",9,9,(5),5,False
+body_part,"('taxi', 'elated', 'volleyball', 'tan', 'billiards')",5,0,(0),0,True
+sport,"('fishing', 'skiing', 'swimming', 'baseball', 'rowing', 'hunting', 'fencing')",7,7,(5),5,False
+body_part,"('jacket', 'uniform', 'knee', 'yoga', 'planetarium')",5,1,(1),1,True
+emotion,"('shy', 'calm', 'grateful', 'amazed', 'irritated', 'happy', 'peaceful', 'raspberry', 'brave')",9,8,(5),5,False
+tool,"('level', 'lychee', 'blizzard', 'cyclone', 'pickup', 'drought', 'blower')",7,2,(2),2,True
+sport,"('tower', 'tunnel', 'socks', 'cold', 'loafers')",5,0,(0),0,True
+body_part,"('hiking', 'raspberry', 'ice', 'hail', 'surfing', 'fig', 'pigeon', 'heel')",8,1,(1),1,True
+weather,"('football', 'confident', 'sunny', 'gusty', 'camping', 'watermelon', 'raspberry', 'lobster', 'office', 'stepladder')",10,2,(2),2,True
+weather,"('pleased', 'currant', 'basketball', 'freezing', 'drought', 'spade')",6,2,(2),2,True
+body_part,"('wrist', 'tooth', 'heel', 'blueberry', 'red', 'jaw', 'forehead', 'liver', 'tongue')",9,7,(5),5,False
+emotion,"('fascinated', 'optimistic', 'compassionate', 'angry', 'brave', 'annoyed', 'shy')",7,7,(4),4,False
+emotion,"('palace', 'lightning', 'hoe', 'rust', 'bridge', 'fog', 'calm')",7,1,(1),1,True
+emotion,"('bunker', 'helicopter', 'soccer', 'bra', 'turquoise')",5,0,(0),0,True
+vehicle,"('bike', 'tram', 'yacht', 'lemon', 'sad', 'bulldozer', 'sandpaper')",7,4,(3),3,False
+tool,"('university', 'rake', 'storm', 'spade', 'workbench', 'khaki', 'shears', 'drill')",8,5,(3),3,False
+animal,"('sandpaper', 'cruise', 'orangutan', 'lobster', 'underwear', 'rabbit', 'chicken', 'zebra', 'horse')",9,6,(5),5,False
+weather,"('heels', 'boysenberry', 'whale', 'grateful', 'calm')",5,0,(0),0,True
+animal,"('pearl', 'irritated', 'cardigan', 'gray', 'crab', 'annoyed')",6,1,(2),2,False
+building,"('skyscraper', 'convent', 'warehouse', 'temple', 'restaurant', 'barn')",6,6,(3),3,False
+body_part,"('knee', 'lung', 'elbow', 'tooth', 'arm', 'skin', 'ear', 'shin', 'muscle', 'chest')",10,10,(7),7,False
+tool,"('pickaxe', 'ivory', 'university', 'hoodie', 'subway', 'hammer')",6,2,(2),2,True
+color,"('wrist', 'copper', 'gold', 'pearl', 'green')",5,4,(3),3,False
+vehicle,"('jet', 'lemon', 'cantaloupe', 'trousers', 'welder')",5,1,(1),1,True
+building,"('mouth', 'greenhouse', 'ambulance', 'dam', 'library')",5,3,(2),2,False
+sport,"('blue', 'raspberry', 'camping', 'orangutan', 'weightlifting', 'shoulder', 'factory', 'surfing')",8,3,(3),3,True
+clothing,"('black', 'innocent', 'truck', 'swimming', 'taekwondo', 'jacket', 'coat')",7,2,(2),2,True
+building,"('tunic', 'sweater', 'theater', 'downpour', 'tower')",5,2,(1),1,False
+weather,"('typhoon', 'ice', 'grinder', 'fierce', 'sleet', 'breezy', 'hot')",7,6,(3),3,False
+fruit,"('cool', 'back', 'bird', 'cantaloupe', 'loving', 'socks', 'shorts', 'dragonfruit', 'irritated')",9,2,(2),2,True
+sport,"('snowboard', 'surfing', 'rowing', 'rugby', 'aerobics', 'calm', 'jaw', 'pajamas')",8,5,(4),4,False
+emotion,"('interested', 'peaceful', 'thigh', 'angry', 'scared', 'content', 'worried', 'sympathetic')",8,7,(5),5,False
+tool,"('jellyfish', 'vest', 'fig', 'frog', 'back', 'date', 'chisel', 'square', 'spade', 'brave')",10,3,(2),2,False
+clothing,"('jeans', 'slippers', 'screwdriver', 'lobster', 'orangutan', 'jacket')",6,3,(2),2,False
+weather,"('cool', 'severe', 'frost', 'sunny', 'cyclone', 'dew', 'ice', 'violet')",8,7,(3),3,False
+building,"('monastery', 'church', 'garage', 'chapel', 'barn', 'aquarium', 'warehouse', 'tower')",8,8,(5),5,False
+emotion,"('excited', 'bone', 'hoe', 'hospital', 'boysenberry', 'shark', 'proud', 'ashamed')",8,3,(2),2,False
+weather,"('pressure', 'silver', 'heel', 'watermelon', 'rain', 'drill', 'elephant', 'suit', 'cream', 'guava')",10,2,(2),2,True
+tool,"('level', 'flats', 'cherry', 'gray', 'purple', 'violet', 'rambutan', 'dam')",8,1,(0),0,False
+animal,"('rickshaw', 'crocodile', 'goat', 'wolf', 'turtle', 'octopus', 'turkey', 'deer', 'blueberry', 'monkey')",10,8,(6),6,False
+building,"('guilty', 'hot', 'alligator', 'elated', 'golf')",5,0,(0),0,True
+emotion,"('angry', 'caring', 'scared', 'compassionate', 'afraid')",5,5,(3),3,False
+tool,"('uniform', 'storm', 'windmill', 'swimsuit', 'sailing', 'elbow', 'azure', 'file', 'excited', 'panda')",10,1,(1),1,True
+emotion,"('excited', 'lime', 'freezing', 'pleased', 'enthusiastic', 'giraffe', 'satisfied', 'temple')",8,4,(4),4,True
+body_part,"('squid', 'ivory', 'koala', 'navy', 'peach', 'marathon', 'ice', 'pomegranate', 'lobster', 'lychee')",10,0,(2),2,False
+sport,"('fishing', 'crossfit', 'camping', 'sailing', 'swimming')",5,5,(3),3,False
+color,"('leopard', 'shirt', 'ivory', 'starfruit', 'yacht', 'lavender')",6,2,(2),2,True
+weather,"('cloud', 'windy', 'stormy', 'fog', 'hot')",5,5,(3),3,False
+color,"('pearl', 'ship', 'belt', 'blue', 'yellow', 'gray', 'periwinkle')",7,5,(4),4,False
+weather,"('snow', 'aquarium', 'content', 'gentle', 'heat', 'tornado', 'hurricane', 'cyclone', 'cloudy')",9,7,(4),4,False
+tool,"('scissors', 'trimmer', 'sandpaper', 'anvil', 'tape', 'mower', 'workbench', 'giraffe', 'lathe', 'file')",10,9,(5),5,False
+tool,"('hoe', 'robin', 'trowel', 'compressor', 'hot', 'spade', 'pickaxe', 'blower', 'karate')",9,6,(3),3,False
+vehicle,"('jigsaw', 'boat', 'pliers', 'rust', 'level', 'crane', 'clamp', 'neck', 'snow', 'greenhouse')",10,2,(2),2,True
+building,"('ambulance', 'police', 'lion', 'shirt', 'baseball', 'square', 'brain', 'currant', 'shoes')",9,0,(0),0,True
+clothing,"('bra', 'coat', 'jumpsuit', 'top', 'suit', 'overalls', 'cardigan', 'dress', 'fig', 'vest')",10,9,(7),7,False
+vehicle,"('crane', 'pants', 'coconut', 'track', 'cargo', 'dam', 'restaurant', 'windmill', 'sailing')",9,2,(2),2,True
+vehicle,"('bird', 'ankle', 'heat', 'brain', 'compassionate', 'gentle', 'clamp', 'anvil', 'brave', 'kayaking')",10,0,(1),1,False
+color,"('weightlifting', 'surfing', 'hoodie', 'planetarium', 'platinum', 'lighthouse', 'afraid', 'shin', 'bra', 'flats')",10,1,(1),1,True
+sport,"('kayaking', 'cycling', 'dog', 'hip', 'fishing', 'dam')",6,3,(3),3,True
+body_part,"('heel', 'tooth', 'knee', 'finger', 'tongue', 'lung', 'leg', 'toe', 'neck', 'nail')",10,10,(9),9,False
+vehicle,"('kayak', 'lilac', 'harvester', 'blower', 'rickshaw', 'surfing')",6,3,(2),2,False
+clothing,"('chimpanzee', 'berry', 'nervous', 'eagle', 'guava', 'apricot', 'beige', 'annoyed', 'gentle')",9,0,(0),0,True
+emotion,"('shocked', 'tennis', 'cabin', 'cardigan', 'heart', 'liver', 'diving', 'scared')",8,2,(2),2,True
+tool,"('karate', 'innocent', 'bar', 'hot', 'sympathetic', 'coat')",6,0,(0),0,True
+sport,"('fig', 'sparrow', 'climbing', 'panda', 'slippers', 'thigh', 'gray', 'jaw')",8,1,(0),0,False
+fruit,"('fort', 'avocado', 'lemon', 'mango', 'bikini', 'tangerine', 'cherry', 'passionfruit', 'ear', 'orange')",10,7,(5),5,False
+vehicle,"('harvester', 'plane', 'mulberry', 'palace', 'boat', 'hatchback', 'police', 'limousine', 'motorcycle', 'garbage')",10,8,(5),5,False
+building,"('jaguar', 'burgundy', 'lung', 'frost', 'honeydew', 'apartment', 'dolphin', 'tanker', 'enthusiastic')",9,1,(1),1,True
+fruit,"('sheep', 'indigo', 'grapefruit', 'proud', 'watermelon', 'pear')",6,3,(3),3,True
+fruit,"('pink', 'kangaroo', 'compassionate', 'snowplow', 'pilates', 'pickaxe')",6,0,(0),0,True
+clothing,"('green', 'hockey', 'cargo', 'fierce', 'stomach', 'observatory', 'shoes', 'vest')",8,2,(2),2,True
+body_part,"('leg', 'chin', 'nectarine', 'confident', 'lung', 'tongue', 'lightning')",7,4,(3),3,False
+animal,"('goat', 'pink', 'dog', 'bird', 'parrot', 'dew', 'boysenberry')",7,4,(3),3,False
+animal,"('indigo', 'warehouse', 'cow', 'museum', 'pliers', 'blower', 'level', 'jellyfish')",8,2,(2),2,True
+sport,"('boxing', 'judo', 'cricket', 'archery', 'church')",5,4,(2),2,False
+sport,"('hippo', 'convertible', 'archery', 'marathon', 'weightlifting', 'karate')",6,4,(3),3,False
+emotion,"('empathetic', 'scared', 'satisfied', 'happy', 'angry', 'peaceful', 'bored', 'pleased', 'optimistic', 'confused')",10,10,(5),5,False
+animal,"('kayak', 'helicopter', 'flats', 'boots', 'kayak', 'dam', 'hawk', 'crane', 'scarlet', 'dolphin')",10,2,(3),3,False
+weather,"('hurricane', 'calm', 'warm', 'typhoon', 'waist', 'wind', 'green')",7,5,(3),3,False
+clothing,"('skirt', 'ecstatic', 'underwear', 'lilac', 'sympathetic', 'overalls', 'surfing')",7,3,(3),3,True
+sport,"('football', 'lion', 'gymnastics', 'boxing', 'golf', 'rowing', 'fencing', 'monkey')",8,6,(5),5,False
+body_part,"('cheek', 'bone', 'back', 'mouth', 'tooth', 'nose', 'kidney', 'hip', 'ankle')",9,9,(5),5,False
+sport,"('football', 'rowing', 'wrist', 'violet', 'surfing', 'plane', 'fish', 'foot', 'heels')",9,3,(3),3,True
+emotion,"('passionfruit', 'temple', 'ear', 'drought', 'billiards', 'orange')",6,0,(0),0,True
+fruit,"('pomegranate', 'grapefruit', 'dragonfruit', 'melon', 'fig', 'boysenberry', 'cranberry', 'elderberry', 'durian', 'guava')",10,10,(10),10,True
+vehicle,"('peach', 'temperature', 'crowbar', 'blazer', 'cardigan', 'apple', 'lychee', 'rake', 'compressor', 'cranberry')",10,0,(0),0,True
+tool,"('spade', 'grinder', 'screwdriver', 'mower', 'intestine', 'cheek')",6,4,(3),3,False
+tool,"('bar', 'taxi', 'hand', 'shears', 'chisel', 'blower', 'pruner', 'toolbox', 'wrench')",9,6,(3),3,False
+fruit,"('elderberry', 'lychee', 'cranberry', 'grape', 'frost', 'chainsaw', 'banana')",7,5,(3),3,False
+body_part,"('nose', 'mouth', 'forehead', 'kidney', 'peach', 'jaguar')",6,4,(3),3,False
+building,"('lighthouse', 'fig', 'cabin', 'shop', 'purple', 'shed', 'convent', 'cathedral', 'tunnel', 'aerobics')",10,7,(5),5,False
+building,"('harvester', 'rickshaw', 'aqua', 'golf', 'restaurant', 'aerobics', 'archery')",7,1,(1),1,True
+body_part,"('waist', 'shocked', 'hoodie', 'bus', 'back', 'temple', 'elbow', 'billiards', 'shin', 'afraid')",10,5,(5),5,True
+body_part,"('foot', 'tongue', 'skin', 'lychee', 'eyebrow', 'heel', 'nail')",7,6,(4),4,False
+fruit,"('grape', 'synagogue', 'raspberry', 'drizzle', 'scooter', 'flats', 'warehouse', 'screwdriver', 'depressed', 'tangerine')",10,3,(3),3,True
+color,"('fuchsia', 'lilac', 'black', 'ivory', 'olive', 'gray', 'cobalt')",7,7,(4),4,False
+emotion,"('synagogue', 'hat', 'innocent', 'hopeful', 'elated', 'grateful')",6,4,(3),3,False
+sport,"('basketball', 'eyelash', 'hunting', 'kidney', 'cricket', 'snowboard', 'planetarium', 'boxing')",8,5,(4),4,False
+tool,"('rain', 'clamp', 'shears', 'hammer', 'chainsaw', 'pruner')",6,5,(3),3,False
+fruit,"('persimmon', 'flats', 'strawberry', 'rabbit', 'papaya', 'darts', 'arm', 'underwear', 'cantaloupe', 'black')",10,4,(3),3,False
+weather,"('vise', 'sun', 'drizzle', 'shower', 'gentle', 'wind')",6,5,(2),2,False
+weather,"('forklift', 'fig', 'shoes', 'turkey', 'snow', 'wind')",6,2,(2),2,True
+emotion,"('shocked', 'optimistic', 'fascinated', 'innocent', 'bored', 'amazed', 'elated', 'depressed')",8,8,(5),5,False
+building,"('breezy', 'date', 'sympathetic', 'rabbit', 'cat', 'face')",6,0,(0),0,True
+sport,"('gymnastics', 'wrestling', 'cobalt', 'hammer', 'salmon', 'bone', 'ear', 'snowplow', 'cycling')",9,3,(3),3,True
+clothing,"('deer', 'office', 'guava', 'cheek', 'heart', 'loafers', 'lychee')",7,1,(1),1,True
+fruit,"('dance', 'honeydew', 'apricot', 'mango', 'shoulder', 'lizard', 'drought', 'eye', 'storm', 'date')",10,4,(4),4,True
+fruit,"('boysenberry', 'plane', 'trimmer', 'watermelon', 'brain', 'blackberry')",6,3,(2),2,False
+emotion,"('canary', 'arm', 'jackfruit', 'gloves', 'lingonberry', 'crane')",6,0,(0),0,True
+emotion,"('swimsuit', 'giraffe', 'fig', 'thankful', 'ladder', 'anxious')",6,2,(2),2,True
+vehicle,"('motorcycle', 'semi', 'sad', 'canoe', 'speedboat', 'tanker', 'dew')",7,5,(3),3,False
+animal,"('fish', 'sheep', 'downpour', 'goose', 'cardinal', 'sailboat', 'octopus', 'magenta', 'owl', 'cheetah')",10,7,(5),5,False
+clothing,"('tie', 'slippers', 'sandals', 'flats', 'socks', 'sad', 'sneakers', 'top')",8,7,(5),5,False
+building,"('mansion', 'tower', 'cabin', 'windmill', 'barn', 'factory', 'garage')",7,7,(4),4,False
+color,"('black', 'coral', 'scarlet', 'red', 'navy', 'gold', 'beige', 'violet', 'silver')",9,9,(5),5,False
+building,"('cinema', 'cloudberry', 'workbench', 'tram', 'gold')",5,1,(0),0,False
+animal,"('monastery', 'wind', 'guilty', 'currant', 'passionate', 'calm', 'clear', 'aquarium', 'canary')",9,1,(0),0,False
+animal,"('dolphin', 'owl', 'sheep', 'pig', 'giraffe', 'lion', 'whale')",7,7,(7),7,True
+tool,"('jaguar', 'spade', 'boxing', 'grinder', 'chainsaw')",5,3,(2),2,False
+clothing,"('mouth', 'dance', 'tunic', 'subway', 'tongue', 'university', 'avocado', 'crowbar')",8,1,(1),1,True
+sport,"('orange', 'storm', 'church', 'garage', 'salmon', 'convertible', 'swimsuit', 'saw', 'crane', 'chisel')",10,0,(2),2,False
+emotion,"('happy', 'cranberry', 'peaceful', 'socks', 'berry', 'irritated')",6,3,(2),2,False
+weather,"('vise', 'sneakers', 'cloud', 'blizzard', 'archery', 'gusty', 'drought', 'optimistic', 'surprised', 'humidity')",10,5,(3),3,False
+weather,"('ice', 'cruise', 'trimmer', 'thunder', 'downpour', 'typhoon', 'hurricane')",7,5,(3),3,False
+clothing,"('cranberry', 'boots', 'cruise', 'turtle', 'pickup', 'tie', 'breezy', 'confident', 'cool', 'cream')",10,2,(2),2,True
+vehicle,"('garbage', 'rickshaw', 'van', 'train', 'rain')",5,4,(2),2,False
+body_part,"('knee', 'hip', 'eye', 'windmill', 'muscle', 'finger', 'persimmon', 'head', 'shin', 'wagon')",10,7,(5),5,False
+animal,"('sparrow', 'cap', 'snowplow', 'white', 'snake', 'horse', 'chicken', 'dragonfruit', 'crow')",9,5,(4),4,False
+vehicle,"('harvester', 'subway', 'scooter', 'rabbit', 'palace')",5,3,(2),2,False
+vehicle,"('pigeon', 'peaceful', 'hiking', 'van', 'sedan', 'harvester', 'heel')",7,3,(3),3,True
+body_part,"('muscle', 'pearl', 'file', 'uniform', 'store', 'vest')",6,1,(1),1,True
+fruit,"('plum', 'blackberry', 'apricot', 'passionfruit', 'jackfruit', 'hospital', 'lemon', 'fig', 'cloudberry')",9,8,(6),6,False
+weather,"('suit', 'pear', 'mouse', 'warm', 'swimsuit', 'confident', 'lighthouse', 'lychee')",8,1,(1),1,True
+sport,"('overcast', 'warm', 'uniform', 'camping', 'car', 'clamp', 'scarf', 'iguana')",8,1,(1),1,True
+animal,"('cat', 'boxing', 'papaya', 'squid', 'frog', 'koala', 'crow')",7,5,(4),4,False
+fruit,"('lingonberry', 'starfruit', 'peach', 'blueberry', 'lemon')",5,5,(4),4,False
+clothing,"('compressor', 'grapefruit', 'pickup', 'suit', 'romper', 'ankle', 'dog', 'cardigan', 'warm', 'banana')",10,3,(4),4,False
+fruit,"('cantaloupe', 'peach', 'coconut', 'tower', 'honeydew', 'raspberry')",6,5,(4),4,False
+weather,"('boxing', 'loving', 'crane', 'cold', 'jellyfish', 'heart', 'cloudy', 'goose')",8,2,(2),2,True
+sport,"('hockey', 'track', 'yoga', 'surfing', 'volleyball', 'wrestling', 'boxing', 'rugby')",8,8,(6),6,False
+clothing,"('peaceful', 'thumb', 'peaceful', 'sparrow', 'scared', 'temperature', 'storm', 'surfing', 'billiards', 'tornado')",10,0,(0),0,True
+fruit,"('van', 'elderberry', 'deer', 'persimmon', 'pants', 'canoe', 'tangerine', 'nectarine', 'rambutan', 'cherry')",10,6,(5),5,False
+color,"('green', 'olive', 'trousers', 'router', 'cardigan', 'beige')",6,3,(2),2,False
+animal,"('cat', 'lobster', 'crocodile', 'jaguar', 'panda', 'dolphin', 'deer', 'chicken', 'parrot')",9,9,(9),9,True
+emotion,"('goose', 'fascinated', 'bicycle', 'nervous', 'apricot', 'stormy', 'plum', 'empathetic')",8,3,(3),3,True
+building,"('shop', 'jacket', 'coat', 'giraffe', 'chest', 'curious')",6,1,(0),0,False
+animal,"('sedan', 'pig', 'canary', 'hawk', 'khaki', 'eagle')",6,4,(3),3,False
+tool,"('bandsaw', 'persimmon', 'grinder', 'pliers', 'rake', 'stepladder', 'overalls', 'helicopter', 'vise')",9,6,(3),3,False
+emotion,"('cold', 'karate', 'calm', 'fog', 'grateful', 'chisel', 'anxious', 'truck')",8,3,(3),3,True
+body_part,"('cabin', 'hunting', 'cargo', 'canary', 'flood', 'temple', 'stepladder', 'jaguar', 'nose')",9,2,(1),1,False
+building,"('store', 'shop', 'warehouse', 'cafe', 'shed')",5,5,(3),3,False
+clothing,"('shorts', 'romper', 'belt', 'magenta', 'dress', 'hat', 'cap')",7,6,(4),4,False
+emotion,"('coral', 'nervous', 'happy', 'depressed', 'trailer', 'brave', 'bored')",7,5,(4),4,False
+body_part,"('heart', 'hair', 'lung', 'cheek', 'face', 'kidney', 'stomach', 'yellow', 'tuxedo', 'fig')",10,7,(5),5,False
+color,"('fuchsia', 'storm', 'gold', 'fishing', 'silver', 'yellow', 'wrestling')",7,4,(3),3,False
+fruit,"('chin', 'jellyfish', 'irritated', 'baseball', 'dolphin', 'aqua', 'shorts', 'confident')",8,0,(0),0,True
+sport,"('jaguar', 'heat', 'museum', 'dress', 'karate')",5,1,(1),1,True
+vehicle,"('trailer', 'taxi', 'tricycle', 'sailboat', 'cruise', 'canoe', 'tanker', 'harvester')",8,8,(5),5,False
+weather,"('typhoon', 'downpour', 'breezy', 'museum', 'sunny', 'motel', 'windy', 'bulldozer')",8,5,(4),4,False
+color,"('bone', 'platinum', 'scarlet', 'dolphin', 'gusty', 'pear')",6,2,(3),3,False
+animal,"('kiwi', 'cyan', 'vest', 'lizard', 'saw', 'skyscraper', 'strawberry', 'tie')",8,1,(2),2,False
+fruit,"('rambutan', 'lemon', 'fig', 'coconut', 'hair')",5,4,(3),3,False
+fruit,"('lathe', 'bodybuilding', 'boots', 'synagogue', 'nail', 'pear', 'vest', 'currant', 'fog', 'kayak')",10,2,(3),3,False
+weather,"('mist', 'cloudy', 'cyan', 'cantaloupe', 'bear')",5,2,(0),0,False
+emotion,"('iguana', 'cardinal', 'warm', 'apple', 'sandpaper', 'sad', 'underwear')",7,1,(1),1,True
+color,"('sympathetic', 'apartment', 'taxi', 'orange', 'pressure', 'rugby')",6,1,(1),1,True
+weather,"('breezy', 'snow', 'temple', 'bodybuilding', 'lightning', 'parrot', 'hockey', 'calm')",8,4,(2),2,False
+body_part,"('waist', 'chest', 'compassionate', 'brain', 'liver', 'shin', 'finger', 'intestine', 'mouth', 'router')",10,8,(6),6,False
+weather,"('snowplow', 'cloud', 'face', 'strawberry', 'fierce', 'chapel', 'train')",7,2,(1),1,False
+building,"('trailer', 'convent', 'mosque', 'hurricane', 'clinic', 'museum', 'skateboard', 'hospital', 'office')",9,6,(4),4,False
+vehicle,"('shirt', 'stepladder', 'plane', 'ship', 'car')",5,3,(3),3,True
+animal,"('jellyfish', 'fish', 'koala', 'frog', 'kangaroo', 'hippo', 'whale')",7,7,(5),5,False
+emotion,"('satisfied', 'curious', 'empathetic', 'ashamed', 'elated', 'bored', 'annoyed', 'optimistic', 'irritated')",9,9,(5),5,False
+color,"('football', 'depressed', 'navy', 'chimpanzee', 'black')",5,2,(2),2,True
+animal,"('snake', 'jellyfish', 'owl', 'lizard', 'sheep')",5,5,(5),5,True
+animal,"('cinema', 'shy', 'chapel', 'camping', 'frog', 'sweater', 'giraffe', 'underwear')",8,2,(2),2,True
+weather,"('tape', 'typhoon', 'crane', 'breezy', 'indigo', 'cow', 'trousers', 'sunny', 'cool')",9,4,(3),3,False
+clothing,"('crab', 'jeans', 'romper', 'blazer', 'gusty', 'underwear', 'sweater', 'skirt', 'robe')",9,7,(6),6,False
+fruit,"('bicycle', 'fierce', 'yoga', 'screwdriver', 'boxing')",5,0,(0),0,True
+fruit,"('grapefruit', 'lingonberry', 'blueberry', 'nectarine', 'pear', 'currant', 'cranberry', 'strawberry')",8,8,(8),8,True
+vehicle,"('rowing', 'cycling', 'heart', 'orange', 'lingonberry', 'calm', 'limousine', 'liver', 'police', 'mist')",10,2,(1),1,False
+sport,"('firetruck', 'amazed', 'back', 'sunny', 'rugby', 'dew', 'temple', 'frost')",8,1,(1),1,True
+fruit,"('observatory', 'shoulder', 'frustrated', 'football', 'shovel')",5,0,(0),0,True
+weather,"('starfruit', 'hail', 'blizzard', 'eagle', 'cold')",5,3,(2),2,False
+weather,"('cobalt', 'toe', 'shears', 'tower', 'sunny')",5,1,(1),1,True
+sport,"('diving', 'hockey', 'baseball', 'basketball', 'marathon')",5,5,(3),3,False
+building,"('swimsuit', 'windmill', 'cricket', 'greenhouse', 'sad', 'theater', 'platinum', 'school', 'cabin', 'chapel')",10,6,(4),4,False
+clothing,"('romper', 'swimsuit', 'dress', 'blazer', 'coat', 'trousers', 'underwear')",7,7,(7),7,True
+fruit,"('elderberry', 'chapel', 'currant', 'taekwondo', 'store')",5,2,(2),2,True
+fruit,"('nectarine', 'shin', 'soccer', 'dragonfruit', 'limousine', 'trimmer')",6,2,(2),2,True
+color,"('crossfit', 'angry', 'peach', 'trimmer', 'sneakers')",5,1,(1),1,True
+clothing,"('sneakers', 'skateboard', 'volleyball', 'raspberry', 'bird', 'hopeful', 'calm', 'cricket')",8,1,(1),1,True
+building,"('taekwondo', 'theater', 'jacket', 'thumb', 'bunker', 'aquarium', 'arm', 'ankle')",8,3,(2),2,False
+body_part,"('lung', 'jaw', 'ear', 'leg', 'muscle', 'skin')",6,6,(5),5,False
+weather,"('wind', 'ice', 'fog', 'flood', 'windy', 'sunny', 'thunder')",7,7,(3),3,False
+animal,"('jellyfish', 'squid', 'snake', 'cobalt', 'persimmon', 'hawk', 'cardinal', 'eagle', 'canoe', 'pliers')",10,6,(4),4,False
+body_part,"('shoulder', 'tongue', 'brain', 'nose', 'shin', 'leg', 'foot', 'temple')",8,8,(6),6,False
+vehicle,"('convertible', 'forklift', 'limousine', 'tricycle', 'combine', 'stepladder')",6,5,(3),3,False
+vehicle,"('kangaroo', 'screwdriver', 'clamp', 'hoodie', 'saw', 'boxing', 'rowing', 'hip', 'azure', 'grinder')",10,0,(2),2,False
+animal,"('rhino', 'cat', 'jaguar', 'panther', 'gorilla', 'crow', 'chimpanzee')",7,7,(5),5,False
+body_part,"('calm', 'tower', 'cycling', 'sedan', 'black', 'jellyfish', 'kayaking', 'mosque', 'kiwi')",9,0,(0),0,True
+sport,"('platinum', 'aerobics', 'baseball', 'soccer', 'cricket', 'boxing', 'surfing', 'rugby', 'pleased', 'hockey')",10,8,(6),6,False
+clothing,"('tuxedo', 'belt', 'scarf', 'socks', 'toe', 'gown')",6,5,(4),4,False
+tool,"('beige', 'cargo', 'orange', 'convent', 'shy', 'taekwondo', 'bandsaw', 'mall', 'blazer')",9,1,(1),1,True
+vehicle,"('baseball', 'toad', 'bike', 'whale', 'hunting', 'drought', 'canoe', 'eagle', 'robin')",9,2,(2),2,True
+building,"('cinema', 'trimmer', 'persimmon', 'skin', 'jeans', 'frost', 'aquarium')",7,2,(1),1,False
+animal,"('sedan', 'kidney', 'square', 'content', 'tie')",5,0,(0),0,True
+clothing,"('chimpanzee', 'loafers', 'neck', 'trousers', 'lime', 'flats', 'lime', 'blower')",8,3,(3),3,True
+emotion,"('climbing', 'clamp', 'cap', 'jigsaw', 'lightning')",5,0,(0),0,True
+clothing,"('whale', 'leg', 'ladder', 'toe', 'cabin', 'navy', 'worried', 'shovel')",8,0,(0),0,True
+weather,"('typhoon', 'slippers', 'knife', 'cloudberry', 'white', 'frost')",6,2,(2),2,True
+building,"('hospital', 'apartment', 'observatory', 'university', 'anvil', 'store', 'palace')",7,6,(3),3,False
+weather,"('passionate', 'screwdriver', 'sunny', 'gooseberry', 'tornado', 'overcast', 'platinum', 'windy')",8,4,(3),3,False
+tool,"('scarlet', 'mango', 'skin', 'chainsaw', 'spade')",5,2,(2),2,True
+animal,"('calm', 'cafe', 'blower', 'jackfruit', 'rowing', 'typhoon', 'dew', 'monastery')",8,0,(0),0,True
+clothing,"('screwdriver', 'pickup', 'mower', 'taekwondo', 'drill', 'judo', 'scarf', 'curious', 'content')",9,1,(1),1,True
+fruit,"('bridge', 'bird', 'cloudberry', 'jacket', 'irritated', 'sneakers', 'rhino', 'cruise', 'helicopter')",9,1,(1),1,True
+building,"('shop', 'flats', 'clinic', 'maroon', 'bridge')",5,3,(2),2,False
+vehicle,"('loving', 'ambulance', 'hurricane', 'bike', 'speedboat', 'bulldozer', 'bus', 'tangerine', 'pomegranate', 'fort')",10,5,(4),4,False
+tool,"('gold', 'heel', 'aerobics', 'blower', 'level', 'pliers', 'shovel', 'aqua', 'tan')",9,4,(3),3,False
+emotion,"('basketball', 'berry', 'guilty', 'chisel', 'content')",5,2,(1),1,False
+vehicle,"('sympathetic', 'semi', 'speedboat', 'van', 'elephant', 'trailer', 'crane', 'papaya')",8,5,(3),3,False
+tool,"('trowel', 'level', 'grinder', 'tape', 'screwdriver', 'crowbar', 'rake', 'sandpaper', 'knife')",9,9,(5),5,False
+sport,"('cheerleading', 'hammer', 'fishing', 'aerobics', 'golf', 'rugby')",6,5,(3),3,False
+tool,"('shears', 'grinder', 'chisel', 'turkey', 'honeydew', 'blue', 'dog', 'jellyfish', 'shower', 'castle')",10,3,(3),3,True
+body_part,"('chin', 'lime', 'lung', 'bone', 'passionfruit', 'knife')",6,3,(3),3,True
+building,"('mosque', 'shop', 'boots', 'robin', 'humidity', 'burgundy', 'monastery', 'observatory', 'overcast')",9,4,(3),3,False
+emotion,"('shy', 'lizard', 'shocked', 'loafers', 'freezing', 'hoe', 'turkey', 'jacket', 'koala')",9,2,(3),3,False
+vehicle,"('ferry', 'sedan', 'brown', 'subway', 'bicycle')",5,4,(3),3,False
+emotion,"('berry', 'eye', 'dog', 'castle', 'annoyed', 'content', 'hunting')",7,2,(2),2,True
+emotion,"('theater', 'school', 'bored', 'lung', 'thunder', 'cyan', 'optimistic')",7,2,(1),1,False
+clothing,"('anxious', 'forehead', 'bikini', 'scarf', 'mosque', 'lychee')",6,2,(2),2,True
+body_part,"('jaw', 'shin', 'face', 'temple', 'neck', 'intestine', 'shoulder', 'waist')",8,8,(6),6,False
+weather,"('sunny', 'berry', 'clear', 'warm', 'fog')",5,4,(2),2,False
+tool,"('welder', 'wrestling', 'crowbar', 'tape', 'level', 'school', 'router')",7,5,(3),3,False
+body_part,"('bird', 'papaya', 'dragonfruit', 'bulldozer', 'intestine')",5,1,(1),1,True
+tool,"('grinder', 'anvil', 'screwdriver', 'fencing', 'shorts', 'shears', 'curious')",7,4,(3),3,False
+tool,"('knife', 'trowel', 'pomegranate', 'mower', 'workbench', 'blower', 'bronze', 'file', 'enthusiastic')",9,6,(4),4,False
+building,"('confident', 'temple', 'scared', 'honeydew', 'sheep', 'tiger', 'library', 'chicken', 'cinema', 'leg')",10,2,(3),3,False
+animal,"('heels', 'tricycle', 'fort', 'tie', 'coconut', 'suit', 'tower')",7,0,(0),0,True
+clothing,"('squid', 'ruler', 'surprised', 'romper', 'hospital', 'tiger')",6,1,(1),1,True
+fruit,"('hoodie', 'olive', 'platinum', 'caring', 'shin', 'crowbar', 'sleet')",7,0,(1),1,False
+color,"('plane', 'brown', 'lime', 'shocked', 'suit', 'magenta', 'green', 'silver')",8,5,(4),4,False
+clothing,"('cold', 'peaceful', 'finger', 'bunker', 'garage', 'jacket', 'kiwi', 'shark', 'windmill', 'mall')",10,1,(1),1,True
+vehicle,"('cool', 'speedboat', 'snow', 'tram', 'heel')",5,2,(2),2,True
+tool,"('blower', 'router', 'trimmer', 'chapel', 'tornado', 'bunker', 'orangutan', 'pickaxe', 'hoe')",9,5,(3),3,False
+clothing,"('underwear', 'skyscraper', 'blazer', 'berry', 'loafers', 'red', 'romper', 'sandals')",8,5,(4),4,False
+animal,"('scissors', 'skin', 'horse', 'hippo', 'gymnastics', 'tram', 'karate', 'cherry')",8,2,(2),2,True
+color,"('kidney', 'apple', 'khaki', 'blue', 'orange', 'maroon', 'compassionate', 'azure', 'pants', 'pickaxe')",10,5,(5),5,True
+body_part,"('tongue', 'hiking', 'brain', 'liver', 'tower', 'ankle', 'bandsaw', 'wrist')",8,5,(3),3,False
+body_part,"('worried', 'squid', 'jaw', 'nose', 'eye', 'tongue', 'temple', 'shoulder', 'skin', 'dolphin')",10,7,(5),5,False
+building,"('enthusiastic', 'cow', 'heel', 'windy', 'violet', 'raspberry', 'strawberry', 'shop', 'school', 'jumpsuit')",10,2,(1),1,False
+fruit,"('screwdriver', 'hiking', 'pickup', 'ice', 'sedan', 'melon', 'mist')",7,1,(1),1,True
+animal,"('cloudy', 'robe', 'canary', 'chainsaw', 'goose', 'police', 'kangaroo')",7,3,(3),3,True
+vehicle,"('delivery', 'plane', 'tram', 'sailboat', 'crimson')",5,4,(2),2,False
+body_part,"('cricket', 'forehead', 'hand', 'heart', 'eye')",5,4,(3),3,False
+clothing,"('convent', 'banana', 'theater', 'purple', 'teal', 'nail', 'clamp')",7,0,(0),0,True
+tool,"('pickaxe', 'press', 'lathe', 'sandpaper', 'drill', 'vise')",6,6,(3),3,False
+fruit,"('pomegranate', 'plum', 'grape', 'boysenberry', 'avocado', 'periwinkle', 'mango', 'guava')",8,7,(5),5,False
+emotion,"('bone', 'happy', 'ecstatic', 'empathetic', 'mulberry', 'green', 'ship', 'confused')",8,4,(3),3,False
+vehicle,"('hiking', 'dam', 'blower', 'pear', 'depressed', 'hand', 'tornado', 'lingonberry', 'snowplow', 'golf')",10,1,(2),2,False
+body_part,"('peaceful', 'happy', 'van', 'caring', 'trailer', 'spade', 'crimson', 'underwear')",8,0,(0),0,True
+weather,"('mist', 'eagle', 'snow', 'hurricane', 'downpour', 'lion')",6,4,(3),3,False
+color,"('temperature', 'press', 'camping', 'overcast', 'pleased', 'flood', 'boots', 'shovel')",8,0,(0),0,True
+body_part,"('tram', 'hand', 'ankle', 'tan', 'shin', 'finger', 'pessimistic', 'brown', 'temple')",9,5,(4),4,False
+color,"('harvester', 'pants', 'coral', 'saw', 'school', 'brown', 'copper')",7,3,(2),2,False
+vehicle,"('zebra', 'canoe', 'train', 'flats', 'cycling', 'fog', 'excavator', 'ambulance')",8,4,(3),3,False
+clothing,"('jet', 'pilates', 'cardigan', 'heels', 'mulberry', 'shrimp', 'mall', 'motel')",8,2,(3),3,False
+fruit,"('pomegranate', 'peaceful', 'maroon', 'bikini', 'horse', 'pickup', 'persimmon')",7,2,(2),2,True
+animal,"('cat', 'zebra', 'duck', 'gorilla', 'chicken')",5,5,(5),5,True
+animal,"('lobster', 'grinder', 'lizard', 'shoulder', 'ecstatic', 'hot', 'alligator')",7,3,(2),2,False
+color,"('thumb', 'head', 'monastery', 'bunker', 'clamp', 'thigh')",6,0,(0),0,True
+animal,"('bodybuilding', 'chicken', 'lobster', 'temperature', 'chimpanzee', 'squid', 'nectarine', 'canary')",8,5,(4),4,False
+sport,"('swimming', 'nectarine', 'shy', 'tractor', 'crossfit', 'green', 'rowing')",7,3,(3),3,True
+animal,"('horse', 'cat', 'monkey', 'robin', 'lightning', 'crocodile')",6,5,(3),3,False
+color,"('heels', 'green', 'violet', 'rust', 'crimson', 'brown', 'black')",7,6,(5),5,False
+color,"('cream', 'gold', 'khaki', 'cyan', 'scarlet', 'red')",6,6,(3),3,False
+body_part,"('hand', 'powerlifting', 'rambutan', 'heels', 'drought', 'thigh', 'elbow', 'nose')",8,4,(4),4,True
+weather,"('tornado', 'cat', 'beige', 'mild', 'blizzard')",5,3,(2),2,False
+animal,"('duck', 'hip', 'koala', 'owl', 'eagle', 'canary')",6,5,(4),4,False
+emotion,"('satisfied', 'top', 'confident', 'grape', 'worried', 'guilty', 'hurricane', 'face', 'mild')",9,4,(3),3,False
+body_part,"('hand', 'rabbit', 'tooth', 'motorcycle', 'skateboard')",5,2,(2),2,True
+weather,"('aqua', 'eyelash', 'cloud', 'wind', 'optimistic', 'calm', 'chimpanzee', 'pressure', 'cool')",9,5,(3),3,False
+weather,"('calm', 'kiwi', 'heat', 'violet', 'happy', 'fierce')",6,3,(1),1,False
+sport,"('snowboard', 'forehead', 'gown', 'football', 'climbing', 'file', 'rugby')",7,4,(3),3,False
+weather,"('ice', 'tornado', 'stormy', 'shower', 'storm', 'face')",6,5,(3),3,False
+emotion,"('sleet', 'orange', 'amazed', 'heels', 'peach', 'castle', 'salmon')",7,1,(1),1,True
+body_part,"('mouth', 'ladder', 'lychee', 'chin', 'brain', 'shy', 'leg')",7,4,(3),3,False
+color,"('stomach', 'cherry', 'breezy', 'clamp', 'lobster', 'lobster', 'hammer', 'turquoise', 'cantaloupe', 'temple')",10,1,(1),1,True
+weather,"('hail', 'downpour', 'sleet', 'mist', 'cloud')",5,5,(5),5,True
+weather,"('teal', 'lingonberry', 'melon', 'interested', 'tower', 'canoe', 'intestine', 'football', 'sailboat', 'track')",10,0,(0),0,True
+animal,"('muscle', 'university', 'grape', 'cheetah', 'confused', 'blue', 'dam', 'afraid', 'convent')",9,1,(1),1,True
+color,"('face', 'gusty', 'jellyfish', 'cream', 'ivory', 'navy', 'bunker', 'black', 'boat')",9,4,(4),4,True
+clothing,"('starfruit', 'burgundy', 'rowing', 'football', 'shirt', 'waist')",6,1,(2),2,False
+emotion,"('compassionate', 'annoyed', 'angry', 'bored', 'satisfied', 'cantaloupe', 'shed', 'peaceful')",8,6,(4),4,False
+vehicle,"('crowbar', 'mower', 'cantaloupe', 'train', 'cranberry', 'foot')",6,1,(2),2,False
+body_part,"('football', 'hip', 'crimson', 'panther', 'toad')",5,1,(1),1,True
+weather,"('clear', 'rain', 'humidity', 'cloudy', 'hat', 'frost', 'windy', 'jaguar', 'limousine')",9,6,(4),4,False
+fruit,"('blueberry', 'cafe', 'fishing', 'eyelash', 'climbing', 'chin', 'pomegranate', 'climbing')",8,2,(2),2,True
+fruit,"('kiwi', 'pomegranate', 'nervous', 'wolf', 'taxi', 'honeydew', 'papaya', 'lingonberry')",8,5,(4),4,False
+animal,"('crocodile', 'panda', 'berry', 'passionfruit', 'pigeon', 'rickshaw', 'tongue', 'monkey')",8,4,(3),3,False
+body_part,"('temple', 'karate', 'drill', 'greenhouse', 'frost', 'bone', 'nail', 'skin')",8,4,(3),3,False
+color,"('berry', 'cottage', 'rambutan', 'canary', 'whale', 'billiards')",6,0,(2),2,False
+emotion,"('ashamed', 'curious', 'empathetic', 'surprised', 'grateful')",5,5,(3),3,False
+animal,"('toad', 'dog', 'robin', 'periwinkle', 'squid', 'press', 'taxi', 'bored', 'crossfit', 'monkey')",10,5,(4),4,False
+body_part,"('shoulder', 'eye', 'thigh', 'windmill', 'hand', 'irritated', 'motel', 'face', 'aquarium')",9,5,(4),4,False
+building,"('motel', 'monastery', 'goose', 'gloves', 'warehouse', 'shed', 'wrestling', 'office', 'skiing', 'billiards')",10,5,(3),3,False
+vehicle,"('ambulance', 'wagon', 'palace', 'convertible', 'strawberry', 'speedboat', 'pressure')",7,4,(3),3,False
+vehicle,"('tongue', 'white', 'delivery', 'plane', 'taxi', 'overcast')",6,3,(2),2,False
+vehicle,"('ship', 'press', 'heart', 'trailer', 'pickup', 'truck', 'firetruck', 'limousine', 'scooter')",9,7,(5),5,False
+vehicle,"('bicycle', 'van', 'tongue', 'yacht', 'bra', 'bike', 'nectarine')",7,4,(3),3,False
+fruit,"('sleet', 'lemon', 'boysenberry', 'lime', 'violet', 'enthusiastic', 'kiwi', 'sandpaper', 'octopus', 'melon')",10,5,(4),4,False
+body_part,"('nail', 'melon', 'level', 'thumb', 'brain', 'toe', 'kidney', 'bicycle')",8,5,(4),4,False
+building,"('church', 'office', 'restaurant', 'castle', 'cinema', 'cabin')",6,6,(3),3,False
+animal,"('confident', 'eyelash', 'watermelon', 'nose', 'hammer')",5,0,(0),0,True
+color,"('yellow', 'bodybuilding', 'magenta', 'restaurant', 'fuchsia', 'jacket', 'mulberry', 'nectarine')",8,3,(4),4,False
+vehicle,"('speedboat', 'rickshaw', 'judo', 'alligator', 'canoe', 'temple', 'billiards', 'compressor', 'violet')",9,3,(3),3,True
+animal,"('aqua', 'gymnastics', 'cricket', 'lathe', 'pickaxe', 'firetruck')",6,0,(0),0,True
+vehicle,"('nervous', 'ship', 'fascinated', 'forklift', 'motorcycle', 'scooter')",6,4,(3),3,False
+animal,"('hoe', 'hammer', 'dragonfruit', 'turquoise', 'taxi', 'eye', 'climbing', 'ruler')",8,0,(0),0,True
+color,"('bandsaw', 'salmon', 'romper', 'aqua', 'scissors')",5,2,(2),2,True
+body_part,"('foot', 'passionate', 'elbow', 'knee', 'stomach', 'tan', 'ice', 'shoulder')",8,5,(3),3,False
+color,"('vise', 'crimson', 'salmon', 'burgundy', 'maroon', 'turquoise', 'coral')",7,6,(5),5,False
+building,"('taxi', 'blazer', 'fort', 'convent', 'cottage', 'bridge', 'sad', 'motel', 'planetarium', 'school')",10,7,(4),4,False
+clothing,"('anxious', 'goat', 'gloves', 'square', 'drought', 'tie', 'parrot', 'azure')",8,2,(2),2,True
+body_part,"('calm', 'shoulder', 'ear', 'bra', 'hip', 'stomach', 'shin', 'ankle', 'face', 'nail')",10,8,(6),6,False
+animal,"('panther', 'dog', 'taxi', 'duck', 'shrimp', 'crow', 'owl')",7,6,(4),4,False
+tool,"('ladder', 'dragonfruit', 'shrimp', 'aqua', 'darts', 'workbench', 'soccer', 'sandpaper', 'sun', 'brain')",10,3,(3),3,True
+animal,"('rhino', 'shy', 'zebra', 'squid', 'whale', 'koala', 'mouse', 'muscle', 'boxing')",9,6,(4),4,False
+sport,"('bowling', 'soccer', 'skateboard', 'tennis', 'football')",5,5,(4),4,False
+building,"('monastery', 'bunker', 'cottage', 'observatory', 'cinema')",5,5,(3),3,False
+weather,"('shower', 'hurricane', 'tornado', 'mist', 'trimmer', 'rain')",6,5,(3),3,False
+color,"('lychee', 'gray', 'windy', 'pig', 'tan', 'hunting', 'honeydew', 'cyan', 'excited')",9,3,(4),4,False
+sport,"('weightlifting', 'cycling', 'karate', 'billiards', 'rugby', 'aerobics', 'yoga', 'marathon')",8,8,(5),5,False
+body_part,"('face', 'heel', 'wrestling', 'cheetah', 'shoulder', 'heart')",6,4,(3),3,False
+clothing,"('jeans', 'swimsuit', 'pants', 'hoodie', 'blouse', 'socks', 'hat', 'vest')",8,8,(8),8,True
+animal,"('snake', 'alligator', 'owl', 'monkey', 'squid')",5,5,(5),5,True
+sport,"('pressure', 'hot', 'blueberry', 'white', 'dress', 'scarf', 'durian', 'amazed', 'worried')",9,0,(0),0,True
+emotion,"('pomegranate', 'afraid', 'cobalt', 'depressed', 'theater')",5,2,(2),2,True
+tool,"('screwdriver', 'ivory', 'pickaxe', 'level', 'anxious', 'papaya', 'skirt', 'file')",8,4,(3),3,False
+body_part,"('knee', 'nail', 'intestine', 'heel', 'compressor', 'elbow', 'finger', 'cheek', 'toe')",9,8,(5),5,False
+tool,"('starfruit', 'vise', 'market', 'cobalt', 'convent', 'lathe', 'level', 'trimmer', 'hoe', 'hatchback')",10,5,(5),5,True
+sport,"('boxing', 'dance', 'cloud', 'surfing', 'irritated', 'hiking', 'basketball', 'pilates')",8,6,(3),3,False
+clothing,"('swimsuit', 'sandals', 'cow', 'boots', 'library')",5,3,(3),3,True
+emotion,"('snowboard', 'cardinal', 'cycling', 'hippo', 'mall', 'shop', 'melon', 'kayak', 'severe', 'level')",10,0,(0),0,True
+building,"('barn', 'palace', 'raspberry', 'lighthouse', 'chimpanzee', 'fort', 'apricot', 'shed', 'hurricane', 'knife')",10,5,(4),4,False
+sport,"('archery', 'hiking', 'confused', 'typhoon', 'surfing', 'volleyball', 'downpour', 'sailing', 'skateboard')",9,6,(5),5,False
+body_part,"('elbow', 'nectarine', 'shin', 'tie', 'eye', 'windmill')",6,3,(3),3,True
+animal,"('monkey', 'muscle', 'nervous', 'cheetah', 'museum', 'gold', 'head', 'zebra', 'sedan')",9,3,(3),3,True
+clothing,"('museum', 'leopard', 'saw', 'camping', 'finger', 'bikini', 'scared', 'red', 'pickaxe', 'bored')",10,1,(1),1,True
+body_part,"('bus', 'garbage', 'chest', 'temple', 'temple', 'intestine', 'elbow', 'tornado')",8,4,(4),4,True
+emotion,"('warm', 'cloudy', 'depressed', 'pessimistic', 'confident', 'scared', 'parrot', 'mouse', 'calm', 'loving')",10,6,(5),5,False
+vehicle,"('boat', 'cruise', 'sad', 'excavator', 'skin', 'loafers', 'crane', 'subway', 'dam')",9,5,(3),3,False
+weather,"('clear', 'drought', 'blizzard', 'frost', 'gentle', 'downpour', 'fog', 'hat')",8,7,(4),4,False
+weather,"('drizzle', 'compassionate', 'gorilla', 'crossfit', 'bra', 'cardigan', 'hatchback', 'marathon', 'frost', 'swimming')",10,2,(2),2,True
+body_part,"('marathon', 'durian', 'canoe', 'afraid', 'ivory', 'track', 'eyelash', 'chin', 'tunnel')",9,2,(3),3,False
+weather,"('underwear', 'copper', 'cardigan', 'vise', 'anxious')",5,0,(0),0,True
+sport,"('pilates', 'surfing', 'crossfit', 'snowboard', 'powerlifting')",5,5,(5),5,True
+body_part,"('hair', 'waist', 'temple', 'face', 'foot', 'lung', 'wrist', 'finger', 'muscle')",9,9,(5),5,False
+weather,"('liver', 'ladder', 'sleet', 'mango', 'swimming', 'orange', 'marathon', 'purple')",8,1,(1),1,True
+fruit,"('honeydew', 'melon', 'pear', 'guava', 'plum', 'tunnel', 'coat', 'coconut', 'papaya', 'ecstatic')",10,7,(5),5,False
+tool,"('clamp', 'pickaxe', 'ruler', 'cathedral', 'saw', 'vise')",6,5,(3),3,False
+animal,"('elephant', 'fishing', 'chimpanzee', 'speedboat', 'planetarium', 'koala', 'chicken', 'duck', 'eagle', 'typhoon')",10,6,(5),5,False
+body_part,"('police', 'volleyball', 'tricycle', 'skin', 'heart')",5,2,(1),1,False
+tool,"('scissors', 'pig', 'router', 'grinder', 'trimmer', 'jigsaw', 'screwdriver')",7,6,(5),5,False
+weather,"('calm', 'blizzard', 'ice', 'hurricane', 'heel', 'jaguar', 'cycling', 'muscle', 'brown', 'warm')",10,5,(3),3,False
+body_part,"('sleet', 'dolphin', 'dam', 'limousine', 'bird', 'judo', 'trousers')",7,0,(2),2,False
+tool,"('trowel', 'welder', 'crowbar', 'blower', 'clamp')",5,5,(3),3,False
+building,"('castle', 'typhoon', 'empathetic', 'shed', 'elephant', 'owl', 'ivory')",7,2,(1),1,False
+fruit,"('watermelon', 'gooseberry', 'nectarine', 'coconut', 'cloudberry', 'dragonfruit', 'grapefruit', 'raspberry')",8,8,(6),6,False
+tool,"('tunic', 'top', 'boots', 'plane', 'hand', 'ear')",6,0,(0),0,True
+building,"('uniform', 'pickup', 'market', 'sandpaper', 'warm', 'blue', 'monastery', 'windmill', 'thigh', 'aquarium')",10,4,(2),2,False
+weather,"('ice', 'guilty', 'bus', 'blackberry', 'pliers', 'tower', 'wind', 'skateboard', 'silver', 'amazed')",10,2,(2),2,True
+animal,"('orangutan', 'cinema', 'trailer', 'panther', 'elephant', 'koala', 'zebra', 'cat', 'convertible')",9,6,(5),5,False
+weather,"('clear', 'hurricane', 'heat', 'pressure', 'humidity', 'cloudy', 'cyclone', 'rain')",8,8,(5),5,False
+vehicle,"('boat', 'ship', 'cargo', 'truck', 'police', 'ambulance', 'scooter', 'delivery', 'subway', 'garbage')",10,10,(5),5,False
+clothing,"('underwear', 'cap', 'socks', 'uniform', 'heels', 'gown')",6,6,(3),3,False
+animal,"('plane', 'interested', 'toe', 'indigo', 'wrist', 'passionfruit', 'sunny')",7,0,(0),0,True
+building,"('apple', 'wagon', 'brave', 'optimistic', 'clamp', 'climbing', 'powerlifting')",7,0,(0),0,True
+clothing,"('bicycle', 'robe', 'jumpsuit', 'suit', 'cardigan', 'underwear', 'swimsuit')",7,6,(5),5,False
+color,"('gold', 'lavender', 'aqua', 'grapefruit', 'warehouse', 'crowbar', 'azure')",7,4,(3),3,False
+clothing,"('shorts', 'trousers', 'sandals', 'boots', 'blouse', 'jacket')",6,6,(6),6,True
+body_part,"('elbow', 'forehead', 'bone', 'leg', 'observatory', 'hand', 'freezing', 'back', 'tiger')",9,6,(5),5,False
+color,"('gray', 'peach', 'yellow', 'lavender', 'pink')",5,5,(3),3,False
+sport,"('snow', 'ship', 'calm', 'hippo', 'pilates')",5,1,(1),1,True
+animal,"('chimpanzee', 'panther', 'kangaroo', 'shrimp', 'cheetah', 'monkey', 'cat')",7,7,(5),5,False
+sport,"('skiing', 'archery', 'bike', 'rowing', 'sun', 'taekwondo', 'bowling', 'turquoise', 'weightlifting', 'sailing')",10,7,(5),5,False
+fruit,"('gooseberry', 'knife', 'rambutan', 'nectarine', 'curious', 'hair')",6,3,(3),3,True
+building,"('castle', 'store', 'cricket', 'theater', 'motel', 'satisfied', 'warehouse')",7,5,(3),3,False
+clothing,"('cap', 'gloves', 'boots', 'rambutan', 'rickshaw', 'sad')",6,3,(2),2,False
+color,"('fuchsia', 'pearl', 'observatory', 'lavender', 'lilac', 'brown')",6,5,(3),3,False
+animal,"('rhino', 'pigeon', 'panda', 'duck', 'alligator', 'toad', 'cow', 'fish', 'lobster')",9,9,(7),7,False
+fruit,"('lemon', 'cloudberry', 'durian', 'deer', 'caring', 'brown', 'gooseberry')",7,4,(3),3,False
+building,"('taxi', 'lighthouse', 'university', 'enthusiastic', 'snake', 'apartment', 'blower', 'museum', 'anxious', 'mall')",10,5,(3),3,False
+fruit,"('navy', 'apple', 'drought', 'currant', 'bird', 'passionfruit', 'pliers', 'curious')",8,3,(3),3,True
+tool,"('cyan', 'drill', 'compressor', 'clear', 'passionfruit')",5,2,(1),1,False
+weather,"('freezing', 'fog', 'cloudy', 'melon', 'brain', 'lightning')",6,4,(2),2,False
+vehicle,"('mulberry', 'camping', 'grinder', 'limousine', 'nose', 'cruise', 'scooter', 'lychee')",8,3,(3),3,True
+emotion,"('sad', 'interested', 'karate', 'gentle', 'anxious', 'skiing', 'curious', 'cap', 'fish')",9,4,(3),3,False
+building,"('skyscraper', 'greenhouse', 'store', 'convent', 'castle', 'garage', 'barn')",7,7,(4),4,False
+vehicle,"('tooth', 'truck', 'barn', 'bikini', 'caring')",5,1,(1),1,True
+clothing,"('suit', 'windmill', 'intestine', 'orange', 'tie', 'semi', 'sneakers', 'jacket', 'overalls', 'swimsuit')",10,6,(5),5,False
+sport,"('saw', 'lemon', 'horse', 'rowing', 'climbing', 'sparrow', 'darts', 'restaurant', 'marathon')",9,4,(3),3,False
+fruit,"('blizzard', 'avocado', 'file', 'helicopter', 'lychee')",5,2,(2),2,True
+weather,"('starfruit', 'pilates', 'kiwi', 'synagogue', 'tennis')",5,0,(0),0,True
+animal,"('speedboat', 'persimmon', 'cinema', 'raspberry', 'downpour', 'stormy', 'shovel', 'cold')",8,0,(0),0,True
+emotion,"('azure', 'ice', 'maroon', 'sad', 'yellow', 'happy', 'mansion', 'empathetic', 'ashamed')",9,4,(3),3,False
+color,"('liver', 'aqua', 'crimson', 'pink', 'beige', 'cold')",6,4,(3),3,False
+body_part,"('eyelash', 'kidney', 'arm', 'finger', 'forehead', 'brain')",6,6,(5),5,False
+body_part,"('hoodie', 'kayaking', 'jaw', 'cardinal', 'downpour', 'worried', 'alligator', 'mouse')",8,1,(2),2,False
+weather,"('gentle', 'sunny', 'drizzle', 'blizzard', 'hail', 'stormy', 'waist', 'vise')",8,6,(3),3,False
+animal,"('yoga', 'boots', 'factory', 'cobalt', 'dolphin', 'indigo', 'stepladder', 'dog', 'cat')",9,3,(3),3,True
+color,"('tennis', 'library', 'trailer', 'excited', 'router')",5,0,(0),0,True
+weather,"('fierce', 'drizzle', 'aerobics', 'hurricane', 'pressure')",5,4,(2),2,False
+color,"('starfruit', 'rambutan', 'mango', 'overalls', 'tan', 'burgundy', 'magenta')",7,3,(3),3,True
+fruit,"('melon', 'shower', 'cloudy', 'darts', 'cathedral', 'orangutan', 'sandals')",7,1,(1),1,True
+animal,"('lion', 'lobster', 'giraffe', 'wolf', 'eagle', 'mouse')",6,6,(6),6,True
+weather,"('finger', 'aquarium', 'boxing', 'tornado', 'storm')",5,2,(2),2,True
+weather,"('compressor', 'fog', 'passionfruit', 'breezy', 'blizzard', 'shower', 'hot')",7,5,(3),3,False
+building,"('storm', 'chapel', 'market', 'ruler', 'blizzard')",5,2,(1),1,False
+sport,"('surprised', 'skateboard', 'fog', 'soccer', 'sailing', 'yoga', 'powerlifting', 'hiking')",8,6,(5),5,False
+sport,"('dance', 'golf', 'cream', 'stormy', 'kayaking', 'fig', 'chainsaw', 'tongue', 'ship')",9,3,(2),2,False
+animal,"('rhino', 'azure', 'weightlifting', 'mower', 'shorts', 'robin', 'pigeon')",7,3,(2),2,False
+color,"('peach', 'ladder', 'shears', 'snowplow', 'wrestling')",5,1,(1),1,True
+weather,"('tornado', 'downpour', 'cloud', 'cafe', 'cyclone', 'cold')",6,5,(3),3,False
+sport,"('track', 'skiing', 'trimmer', 'hiking', 'aerobics', 'sailing')",6,5,(3),3,False
+weather,"('bike', 'neck', 'shoes', 'durian', 'thankful', 'duck', 'navy', 'cabin')",8,0,(0),0,True
+sport,"('fishing', 'combine', 'shears', 'cream', 'skin', 'crow', 'mouth', 'curious', 'foot', 'temperature')",10,1,(1),1,True
+vehicle,"('train', 'sailing', 'content', 'bored', 'belt', 'loving', 'mansion')",7,1,(1),1,True
+emotion,"('worried', 'kidney', 'shy', 'surprised', 'eye')",5,3,(2),2,False
+body_part,"('hip', 'content', 'skin', 'stomach', 'hair', 'chin', 'shoulder', 'peach', 'mist')",9,6,(4),4,False
+fruit,"('pear', 'papaya', 'honeydew', 'turquoise', 'dragonfruit', 'cathedral', 'orange')",7,5,(3),3,False
+weather,"('wind', 'severe', 'leopard', 'drought', 'mist', 'shower', 'cranberry', 'hot')",8,6,(3),3,False
+sport,"('spade', 'scooter', 'peaceful', 'elderberry', 'cabin', 'hurricane', 'deer', 'tooth')",8,0,(1),1,False
+sport,"('powerlifting', 'football', 'sympathetic', 'soccer', 'baseball', 'whale', 'hippo', 'track', 'aerobics')",9,6,(5),5,False
+weather,"('severe', 'drizzle', 'flood', 'aqua', 'shower', 'angry', 'sunny', 'thunder')",8,6,(4),4,False
+vehicle,"('tanker', 'cruise', 'market', 'train', 'sailboat', 'monkey')",6,4,(2),2,False
+tool,"('tape', 'pliers', 'level', 'bandsaw', 'tractor')",5,4,(3),3,False
+sport,"('baseball', 'cheerleading', 'basketball', 'volleyball', 'cycling', 'hunting', 'swimming', 'snowboard', 'bowling', 'track')",10,10,(5),5,False
+vehicle,"('coral', 'greenhouse', 'speedboat', 'blazer', 'temple', 'trailer', 'limousine', 'sailboat')",8,4,(4),4,True
+tool,"('ear', 'fish', 'nectarine', 'foot', 'storm', 'arm', 'basketball', 'surprised')",8,0,(0),0,True
+color,"('brown', 'hammer', 'green', 'khaki', 'iguana', 'canoe', 'scared')",7,3,(2),2,False
+emotion,"('nervous', 'thankful', 'content', 'confident', 'empathetic')",5,5,(2),2,False
+tool,"('currant', 'lathe', 'sneakers', 'sailing', 'spade', 'skateboard', 'orangutan')",7,2,(2),2,True
+color,"('garbage', 'chisel', 'tie', 'cat', 'amazed', 'iguana', 'forehead')",7,0,(0),0,True
+weather,"('breezy', 'overcast', 'cloud', 'peaceful', 'lightning')",5,4,(2),2,False
+building,"('shop', 'loafers', 'convent', 'barn', 'museum', 'greenhouse', 'humidity')",7,5,(3),3,False
+emotion,"('crimson', 'jigsaw', 'amazed', 'ashamed', 'nervous', 'underwear')",6,3,(3),3,True
+animal,"('cardinal', 'motel', 'black', 'purple', 'scissors', 'cow', 'khaki')",7,2,(2),2,True
+clothing,"('irritated', 'romper', 'knife', 'chin', 'sandals', 'blouse', 'barn', 'rabbit', 'tie', 'swimming')",10,4,(4),4,True
+tool,"('scared', 'pigeon', 'press', 'welder', 'shovel', 'wrench', 'anvil')",7,5,(3),3,False
+body_part,"('pear', 'red', 'clamp', 'chimpanzee', 'welder', 'scarlet')",6,0,(0),0,True
+weather,"('welder', 'empathetic', 'warm', 'snowplow', 'elated', 'eye')",6,1,(1),1,True
+tool,"('hospital', 'aquarium', 'rugby', 'observatory', 'vise', 'passionate')",6,1,(1),1,True
+emotion,"('interested', 'satisfied', 'depressed', 'pleased', 'bar', 'peaceful', 'sad', 'loving', 'thankful', 'shy')",10,9,(6),6,False
+fruit,"('boysenberry', 'jackfruit', 'watermelon', 'coconut', 'nectarine', 'gooseberry', 'giraffe', 'grapefruit', 'currant', 'pear')",10,9,(7),7,False
+tool,"('router', 'saw', 'orange', 'gloves', 'lemon', 'chainsaw', 'tape', 'hammer', 'subway', 'crowbar')",10,6,(4),4,False
+weather,"('white', 'pressure', 'frost', 'blizzard', 'cold', 'muscle', 'intestine', 'breezy')",8,5,(3),3,False
+emotion,"('hospital', 'annoyed', 'crossfit', 'surprised', 'sympathetic', 'jet')",6,3,(3),3,True
+color,"('gooseberry', 'hawk', 'swimming', 'hoodie', 'beige', 'trousers', 'mulberry')",7,1,(2),2,False
+fruit,"('house', 'chisel', 'tricycle', 'swimsuit', 'football', 'maroon')",6,0,(0),0,True
+vehicle,"('castle', 'snowplow', 'violet', 'snow', 'plane', 'lime', 'pilates')",7,2,(2),2,True
+animal,"('squid', 'lathe', 'cat', 'sad', 'pressure', 'duck', 'lizard')",7,4,(3),3,False
+clothing,"('heels', 'press', 'vise', 'jumpsuit', 'worried', 'sneakers', 'trowel', 'depressed')",8,3,(3),3,True
+animal,"('cardinal', 'lemon', 'storm', 'leopard', 'taekwondo', 'tiger', 'octopus', 'wrestling')",8,4,(4),4,True
+tool,"('hopeful', 'gooseberry', 'gentle', 'excavator', 'dam')",5,0,(1),1,False
+emotion,"('cricket', 'banana', 'frustrated', 'periwinkle', 'boxing', 'hiking', 'hail', 'aerobics', 'durian', 'school')",10,1,(1),1,True
+sport,"('snowboard', 'sailing', 'dance', 'bowling', 'hunting', 'kayaking')",6,6,(3),3,False
+emotion,"('bodybuilding', 'dragonfruit', 'wrench', 'romper', 'crow', 'jeans', 'camping', 'violet')",8,0,(0),0,True
+color,"('cathedral', 'copper', 'navy', 'synagogue', 'brown', 'pleased')",6,3,(3),3,True
+animal,"('koala', 'robin', 'spade', 'aqua', 'pickaxe', 'toad', 'top', 'chapel', 'octopus')",9,4,(3),3,False
+weather,"('hurricane', 'router', 'grape', 'wind', 'sailboat', 'warehouse', 'cloudy')",7,3,(2),2,False
+color,"('pickaxe', 'bear', 'hoe', 'yellow', 'sunny', 'tape', 'tram', 'scarlet', 'burgundy')",9,3,(3),3,True
+weather,"('passionfruit', 'grapefruit', 'hammer', 'store', 'sweater', 'marathon', 'temple', 'azure', 'pear', 'pig')",10,0,(0),0,True
+body_part,"('wrist', 'annoyed', 'heel', 'mouth', 'bone', 'ear', 'brave', 'climbing')",8,5,(4),4,False
+weather,"('pickup', 'chainsaw', 'orange', 'fig', 'shovel', 'cool', 'mansion')",7,1,(0),0,False
+tool,"('drill', 'ladder', 'lathe', 'shears', 'router', 'grinder', 'workbench', 'level', 'chainsaw', 'compressor')",10,10,(5),5,False
+vehicle,"('police', 'excavator', 'yacht', 'diving', 'convertible', 'bulldozer', 'peaceful', 'subway')",8,6,(3),3,False
+building,"('duck', 'baseball', 'gymnastics', 'wrestling', 'uniform', 'red', 'turkey')",7,0,(0),0,True
+color,"('heart', 'red', 'nail', 'cabin', 'rust', 'motorcycle', 'speedboat')",7,2,(1),1,False
+building,"('clinic', 'shed', 'synagogue', 'school', 'market', 'apartment', 'mall', 'mosque', 'museum')",9,9,(5),5,False
+sport,"('magenta', 'skiing', 'police', 'lingonberry', 'overalls', 'cream', 'archery')",7,2,(2),2,True
+sport,"('violet', 'helicopter', 'billiards', 'bored', 'wrestling')",5,2,(2),2,True
+emotion,"('aerobics', 'trowel', 'grateful', 'wrench', 'skirt', 'shocked', 'passionate', 'stepladder')",8,3,(3),3,True
+fruit,"('currant', 'nectarine', 'lingonberry', 'tuxedo', 'copper', 'pear')",6,4,(3),3,False
+clothing,"('pessimistic', 'strawberry', 'hoodie', 'jeans', 'pigeon', 'sleet')",6,2,(2),2,True
+tool,"('wrench', 'trimmer', 'chisel', 'bandsaw', 'compressor', 'file', 'tape', 'toolbox', 'press')",9,9,(5),5,False
+animal,"('dragonfruit', 'ankle', 'poncho', 'pig', 'flats', 'melon', 'honeydew', 'cardinal')",8,2,(3),3,False
+animal,"('crow', 'raspberry', 'grapefruit', 'tunnel', 'hawk', 'owl', 'chicken', 'snake', 'wolf')",9,6,(5),5,False
+building,"('breezy', 'elephant', 'goat', 'rowing', 'hand', 'grape', 'zebra', 'orangutan', 'ice')",9,0,(0),0,True
+color,"('fierce', 'azure', 'camping', 'limousine', 'thumb', 'cold', 'flood')",7,1,(1),1,True
+emotion,"('happy', 'confused', 'skyscraper', 'irritated', 'curious', 'hopeful', 'clear', 'elated', 'worried')",9,7,(5),5,False
+building,"('market', 'bandsaw', 'finger', 'iguana', 'ashamed', 'judo')",6,1,(0),0,False
+vehicle,"('tricycle', 'bus', 'yacht', 'cruise', 'cottage')",5,4,(2),2,False
+body_part,"('stomach', 'romper', 'tape', 'apple', 'head')",5,2,(2),2,True
+clothing,"('gloves', 'hoodie', 'fishing', 'cardigan', 'sandals', 'heels', 'swimsuit', 'jeans', 'boots')",9,8,(6),6,False
+vehicle,"('nervous', 'afraid', 'chicken', 'lightning', 'back', 'car', 'lighthouse', 'sandpaper', 'elderberry')",9,1,(1),1,True
+fruit,"('volleyball', 'caring', 'eye', 'gray', 'gray', 'warm', 'overalls', 'melon', 'apartment')",9,1,(2),2,False
+animal,"('tie', 'horse', 'wolf', 'crow', 'drizzle', 'football')",6,3,(2),2,False
+fruit,"('durian', 'banana', 'beige', 'jackfruit', 'tunnel', 'bone', 'rambutan', 'duck')",8,4,(3),3,False
+body_part,"('lung', 'billiards', 'tuxedo', 'fuchsia', 'cheek', 'foot', 'neck', 'gold', 'mouth')",9,5,(3),3,False
+color,"('crimson', 'orange', 'periwinkle', 'cyan', 'copper', 'beige')",6,6,(3),3,False
+fruit,"('pomegranate', 'synagogue', 'pear', 'caring', 'cranberry', 'avocado', 'gooseberry', 'periwinkle', 'blueberry')",9,6,(5),5,False
+clothing,"('pants', 'vest', 'robe', 'shirt', 'sandals', 'tie', 'hat', 'sneakers', 'monastery')",9,8,(5),5,False
+color,"('indigo', 'lime', 'copper', 'gray', 'afraid', 'temple', 'orange')",7,5,(3),3,False
+fruit,"('mango', 'currant', 'cherry', 'pomegranate', 'kayaking', 'persimmon', 'dragonfruit', 'enthusiastic', 'raspberry', 'avocado')",10,8,(5),5,False
+sport,"('cycling', 'stepladder', 'lion', 'marathon', 'lung', 'duck')",6,2,(2),2,True
+weather,"('thunder', 'eagle', 'goat', 'pickaxe', 'cloudy', 'convertible', 'shower')",7,3,(2),2,False
+sport,"('tennis', 'taekwondo', 'weightlifting', 'karate', 'rugby', 'cricket', 'rowing', 'bowling')",8,8,(8),8,True
+tool,"('cloudberry', 'raspberry', 'leopard', 'satisfied', 'cool', 'jet')",6,0,(0),0,True
+weather,"('mist', 'heat', 'hurricane', 'pearl', 'lightning', 'humidity', 'lychee', 'scissors', 'typhoon')",9,6,(3),3,False
+tool,"('chisel', 'bandsaw', 'anvil', 'content', 'planetarium', 'ambulance', 'shocked', 'black')",8,3,(2),2,False
+clothing,"('harvester', 'pants', 'coconut', 'jumpsuit', 'pessimistic')",5,2,(2),2,True
+fruit,"('chisel', 'cloudy', 'lingonberry', 'sympathetic', 'kiwi', 'guava', 'gold', 'lychee', 'camping')",9,4,(4),4,True
+weather,"('wrist', 'shy', 'freezing', 'darts', 'gusty')",5,2,(1),1,False
+vehicle,"('scooter', 'cruise', 'wagon', 'yacht', 'tractor', 'delivery', 'boat')",7,7,(3),3,False
+tool,"('grinder', 'sandpaper', 'ruler', 'file', 'scissors', 'bandsaw')",6,6,(5),5,False
+clothing,"('blouse', 'shirt', 'swimsuit', 'poncho', 'boots', 'cap', 'top', 'cardigan', 'jacket')",9,9,(7),7,False
+weather,"('mouth', 'slippers', 'fog', 'drought', 'sneakers', 'hiking')",6,2,(2),2,True
+building,"('subway', 'lizard', 'tunnel', 'bunker', 'observatory', 'mall', 'market', 'palace')",8,6,(3),3,False
+emotion,"('grateful', 'hopeful', 'pliers', 'hunting', 'excited', 'boots')",6,3,(3),3,True
+clothing,"('loafers', 'shorts', 'planetarium', 'currant', 'overalls', 'bandsaw')",6,3,(3),3,True
+animal,"('cheetah', 'boxing', 'garbage', 'cyan', 'hopeful')",5,1,(1),1,True
+tool,"('limousine', 'harvester', 'lingonberry', 'rhino', 'compressor', 'ferry', 'fig', 'square', 'cycling')",9,2,(2),2,True
+tool,"('fig', 'shorts', 'mower', 'jigsaw', 'warehouse', 'toolbox', 'excited', 'crossfit')",8,3,(3),3,True
+emotion,"('cycling', 'lilac', 'navy', 'deer', 'tunnel', 'elephant', 'whale', 'orange')",8,0,(0),0,True
+clothing,"('tie', 'currant', 'ice', 'cardigan', 'storm')",5,2,(2),2,True
+tool,"('gorilla', 'hip', 'sad', 'apple', 'wrench', 'square')",6,2,(1),1,False
+sport,"('skiing', 'soccer', 'volleyball', 'hockey', 'overalls')",5,4,(4),4,True
+color,"('mango', 'apple', 'rugby', 'greenhouse', 'shoes', 'boysenberry', 'spade', 'delivery', 'jumpsuit', 'brave')",10,0,(1),1,False
+body_part,"('shoulder', 'jaw', 'face', 'swimsuit', 'back', 'ear', 'eyelash', 'climbing')",8,6,(3),3,False
+clothing,"('weightlifting', 'poncho', 'vest', 'annoyed', 'cranberry', 'pajamas', 'uniform', 'barn', 'boots')",9,5,(4),4,False
+animal,"('thankful', 'magenta', 'limousine', 'sandals', 'hammer', 'kangaroo')",6,1,(1),1,True
+animal,"('panda', 'crow', 'cow', 'eagle', 'snake', 'shrimp')",6,6,(6),6,True
+animal,"('vest', 'lion', 'sandals', 'robin', 'bird', 'pleased', 'windmill')",7,3,(2),2,False
+fruit,"('wind', 'cheek', 'plum', 'banana', 'berry', 'wind', 'cantaloupe', 'persimmon', 'lathe', 'basketball')",10,5,(5),5,True
+sport,"('jigsaw', 'socks', 'golf', 'pickup', 'restaurant', 'climbing', 'diving', 'compressor', 'zebra', 'monkey')",10,3,(3),3,True
+body_part,"('rabbit', 'pickaxe', 'hockey', 'pigeon', 'banana', 'hippo', 'rugby', 'irritated')",8,0,(2),2,False
+weather,"('turtle', 'theater', 'chest', 'overcast', 'cool')",5,2,(1),1,False
+animal,"('gorilla', 'frog', 'track', 'lilac', 'loving', 'harvester', 'lion', 'pig', 'sandpaper', 'banana')",10,4,(4),4,True
+color,"('hunting', 'humidity', 'pressure', 'periwinkle', 'pliers', 'hip', 'monastery', 'pleased')",8,1,(1),1,True
+emotion,"('goat', 'anxious', 'bicycle', 'depressed', 'fencing', 'eagle', 'hopeful', 'confused', 'belt')",9,4,(4),4,True
+building,"('canary', 'shark', 'shoulder', 'heat', 'office', 'durian')",6,1,(1),1,True
+fruit,"('cloudberry', 'coconut', 'grape', 'goat', 'strawberry', 'jackfruit', 'excited', 'berry')",8,6,(4),4,False
+fruit,"('pomegranate', 'blueberry', 'apricot', 'sneakers', 'nectarine', 'gooseberry', 'blackberry', 'shears', 'cherry')",9,7,(6),6,False
+color,"('sleet', 'thankful', 'aerobics', 'hopeful', 'bicycle', 'belt', 'forklift', 'hockey')",8,0,(0),0,True
+tool,"('trowel', 'scissors', 'screwdriver', 'workbench', 'mower', 'stepladder', 'sandals')",7,6,(3),3,False
+body_part,"('hand', 'clinic', 'wolf', 'hockey', 'intestine', 'tangerine', 'mouth', 'nail')",8,4,(3),3,False
+sport,"('kayak', 'skateboard', 'workbench', 'yoga', 'cheerleading', 'thigh', 'archery', 'soccer', 'wrestling')",9,6,(5),5,False
+emotion,"('snowboard', 'football', 'peach', 'sympathetic', 'frustrated', 'toolbox', 'toolbox', 'enthusiastic', 'intestine')",9,3,(3),3,True
+weather,"('scooter', 'robe', 'lightning', 'slippers', 'temperature')",5,2,(1),1,False
+body_part,"('jaw', 'face', 'foot', 'eyelash', 'stomach')",5,5,(3),3,False
+emotion,"('tangerine', 'hurricane', 'grateful', 'wagon', 'satisfied', 'house', 'mall', 'jackfruit', 'ashamed', 'maroon')",10,3,(3),3,True
+fruit,"('turquoise', 'heart', 'hammer', 'cardigan', 'gusty', 'compressor', 'pessimistic', 'proud')",8,0,(0),0,True
+weather,"('date', 'wrist', 'breezy', 'salmon', 'mist', 'fog')",6,3,(2),2,False
+sport,"('pink', 'passionate', 'shoulder', 'crab', 'eyelash', 'dog', 'plane', 'crowbar', 'depressed', 'apple')",10,0,(1),1,False
+body_part,"('watermelon', 'pigeon', 'apple', 'cherry', 'sneakers')",5,0,(0),0,True
+fruit,"('mosque', 'sandpaper', 'surfing', 'strawberry', 'coconut', 'guava', 'humidity', 'jackfruit')",8,4,(4),4,True
+fruit,"('museum', 'mosque', 'hurricane', 'gloves', 'cottage', 'copper', 'gloves', 'cruise')",8,0,(0),0,True
+vehicle,"('canoe', 'clear', 'bus', 'windmill', 'jet', 'convertible', 'passionfruit', 'warehouse', 'car', 'synagogue')",10,5,(4),4,False
+color,"('fuchsia', 'aqua', 'periwinkle', 'magenta', 'orange', 'beige', 'azure', 'turquoise', 'school', 'platinum')",10,9,(5),5,False
+sport,"('chimpanzee', 'bandsaw', 'octopus', 'billiards', 'skateboard', 'cap', 'sailing')",7,3,(3),3,True
+color,"('teal', 'beige', 'cyan', 'heel', 'silver')",5,4,(3),3,False
+building,"('restaurant', 'library', 'planetarium', 'aquarium', 'fascinated')",5,4,(3),3,False
+animal,"('snake', 'poncho', 'warm', 'eagle', 'bike', 'brave', 'bear', 'pickup', 'chapel')",9,3,(3),3,True
+building,"('loafers', 'office', 'university', 'skyscraper', 'factory', 'temple', 'shed', 'shop', 'hospital', 'apartment')",10,9,(5),5,False
+animal,"('hospital', 'flats', 'market', 'lilac', 'brown', 'overalls', 'kiwi', 'shocked', 'taekwondo')",9,0,(2),2,False
+emotion,"('irritated', 'curious', 'innocent', 'excited', 'content', 'brain', 'tunnel', 'enthusiastic', 'cloud', 'cruise')",10,6,(5),5,False
+clothing,"('uniform', 'hail', 'socks', 'archery', 'cardigan', 'fig', 'castle', 'bunker', 'sandpaper', 'hat')",10,4,(3),3,False
+clothing,"('stomach', 'bodybuilding', 'socks', 'cafe', 'crane')",5,1,(1),1,True
+weather,"('yacht', 'cream', 'bulldozer', 'pear', 'fishing')",5,0,(0),0,True
+animal,"('snowplow', 'router', 'crocodile', 'underwear', 'whale', 'chicken')",6,3,(3),3,True
+tool,"('screwdriver', 'grinder', 'workbench', 'ruler', 'crowbar')",5,5,(3),3,False
+sport,"('darts', 'baseball', 'boxing', 'snowboard', 'taekwondo', 'skiing', 'billiards', 'elated', 'hunting', 'basketball')",10,9,(6),6,False
+vehicle,"('compressor', 'pearl', 'pleased', 'helicopter', 'convertible', 'scooter')",6,3,(2),2,False
+animal,"('cabin', 'waist', 'basketball', 'anvil', 'mist', 'rambutan', 'storm')",7,0,(1),1,False
+emotion,"('irritated', 'shoulder', 'grateful', 'fascinated', 'darts', 'gooseberry', 'worried', 'warm')",8,4,(4),4,True
+building,"('pessimistic', 'forklift', 'bronze', 'garage', 'forehead', 'tunnel', 'fort')",7,3,(3),3,True
+color,"('pickup', 'burgundy', 'pressure', 'black', 'indigo', 'rowing', 'proud')",7,3,(3),3,True
+clothing,"('overalls', 'alligator', 'arm', 'face', 'drill')",5,1,(1),1,True
+tool,"('square', 'duck', 'bike', 'chainsaw', 'leg', 'hair', 'grinder')",7,3,(2),2,False
+vehicle,"('trailer', 'elated', 'rickshaw', 'ferry', 'subway', 'gusty', 'thumb')",7,4,(3),3,False
+tool,"('stepladder', 'mango', 'sun', 'firetruck', 'rake', 'church')",6,2,(2),2,True
+tool,"('bodybuilding', 'blower', 'level', 'shovel', 'combine')",5,3,(2),2,False
+vehicle,"('cloudberry', 'kayak', 'boat', 'hoodie', 'drill', 'wagon', 'canoe', 'durian', 'ship', 'train')",10,6,(4),4,False
+building,"('mild', 'barn', 'observatory', 'office', 'face', 'apartment', 'hospital', 'convent', 'motel')",9,7,(5),5,False
+sport,"('tennis', 'lime', 'convent', 'proud', 'climbing', 'golf', 'swimming', 'bodybuilding')",8,5,(3),3,False
+clothing,"('loafers', 'coat', 'shrimp', 'lighthouse', 'bike', 'tape', 'blouse', 'ankle', 'jaw', 'calm')",10,3,(3),3,True
+color,"('tower', 'chin', 'tanker', 'gymnastics', 'beige', 'coral')",6,2,(2),2,True
+body_part,"('shark', 'tiger', 'uniform', 'chainsaw', 'sparrow', 'pink', 'brave')",7,0,(0),0,True
+clothing,"('poncho', 'tie', 'jumpsuit', 'trousers', 'underwear', 'swimsuit')",6,6,(6),6,True
+sport,"('wolf', 'swimsuit', 'cream', 'grateful', 'turkey')",5,0,(0),0,True
+sport,"('billiards', 'football', 'tennis', 'dance', 'taxi', 'crossfit', 'hockey')",7,6,(4),4,False
+color,"('lavender', 'beige', 'frog', 'crossfit', 'rust', 'magenta', 'giraffe', 'chainsaw')",8,4,(3),3,False
+fruit,"('cycling', 'honeydew', 'black', 'blackberry', 'knife', 'stomach', 'turkey', 'grape', 'kayak', 'pear')",10,4,(4),4,True
+clothing,"('hat', 'dress', 'romper', 'suit', 'pajamas', 'bikini', 'swimsuit')",7,7,(7),7,True
+fruit,"('watermelon', 'blackberry', 'guava', 'motel', 'lime', 'hurricane', 'kiwi')",7,5,(4),4,False
+clothing,"('pressure', 'swimsuit', 'flats', 'delivery', 'bra', 'uniform', 'pliers', 'shoes', 'boots', 'belt')",10,7,(5),5,False
+animal,"('fishing', 'pig', 'hippo', 'bear', 'panther', 'shark')",6,5,(4),4,False
+fruit,"('copper', 'darts', 'cricket', 'chainsaw', 'ivory', 'judo')",6,0,(0),0,True
+body_part,"('combine', 'optimistic', 'cabin', 'loafers', 'intestine', 'tunnel', 'skirt', 'content', 'pleased')",9,1,(3),3,False
+fruit,"('hot', 'kiwi', 'romper', 'fort', 'boxing', 'jackfruit', 'frog', 'elderberry', 'pomegranate')",9,4,(3),3,False
+clothing,"('shed', 'finger', 'museum', 'heel', 'grapefruit', 'hospital', 'boots', 'owl', 'suit', 'cap')",10,3,(3),3,True
+tool,"('sneakers', 'cloudy', 'typhoon', 'helicopter', 'waist', 'wind', 'crimson', 'ruler', 'romper', 'taxi')",10,1,(2),2,False
+fruit,"('rain', 'tractor', 'lime', 'screwdriver', 'pear', 'cantaloupe', 'strawberry')",7,4,(4),4,True
+vehicle,"('combine', 'soccer', 'canoe', 'university', 'raspberry', 'drought', 'rickshaw', 'sailboat', 'motorcycle')",9,5,(3),3,False
+tool,"('pruner', 'pickaxe', 'mower', 'hammer', 'saw', 'level', 'router')",7,7,(5),5,False
+body_part,"('shirt', 'nail', 'cottage', 'leg', 'forehead', 'chainsaw', 'head', 'wolf', 'anvil', 'cheek')",10,5,(4),4,False
+color,"('rust', 'maroon', 'aqua', 'overalls', 'heels', 'cream', 'white', 'gray', 'yellow')",9,7,(5),5,False
+weather,"('copper', 'shin', 'university', 'cobalt', 'cheek', 'mall', 'canary')",7,0,(0),0,True
+tool,"('trimmer', 'pruner', 'bandsaw', 'cow', 'wrench', 'loafers', 'press', 'knife')",8,6,(4),4,False
+sport,"('uniform', 'hair', 'kayaking', 'blazer', 'nectarine', 'football')",6,2,(2),2,True
+tool,"('powerlifting', 'aqua', 'blackberry', 'silver', 'jaw', 'guilty', 'welder', 'office', 'green', 'tape')",10,2,(1),1,False
+animal,"('orangutan', 'chimpanzee', 'pig', 'horse', 'goose', 'crocodile', 'cardinal', 'pigeon', 'fish')",9,9,(7),7,False
+emotion,"('neck', 'nail', 'poncho', 'convent', 'fencing', 'gray', 'shorts', 'tooth', 'poncho')",9,0,(0),0,True
+color,"('tiger', 'lilac', 'violet', 'bronze', 'coral')",5,4,(3),3,False
+clothing,"('suit', 'top', 'dress', 'shorts', 'coat', 'robe', 'content', 'swimsuit', 'jumpsuit')",9,8,(6),6,False
+vehicle,"('head', 'train', 'van', 'canoe', 'garbage', 'jaw', 'sailboat', 'boat')",8,6,(3),3,False
+animal,"('subway', 'house', 'turtle', 'pickaxe', 'train', 'eagle', 'gold', 'warehouse')",8,2,(2),2,True
+fruit,"('cyclone', 'cloud', 'sedan', 'cap', 'speedboat', 'goose', 'chisel', 'pomegranate', 'cinema')",9,1,(2),2,False
+clothing,"('shorts', 'slippers', 'sandals', 'bikini', 'jeans', 'shirt', 'poncho', 'pants')",8,8,(6),6,False
+fruit,"('factory', 'currant', 'guava', 'elephant', 'shower', 'volleyball', 'sedan')",7,2,(2),2,True
+body_part,"('chapel', 'yacht', 'cafe', 'passionfruit', 'happy', 'neck', 'tooth')",7,2,(1),1,False
+body_part,"('eye', 'head', 'cherry', 'thumb', 'hand', 'hair', 'liver', 'kidney', 'ear', 'mouth')",10,9,(6),6,False
+weather,"('freezing', 'storm', 'humidity', 'caring', 'downpour', 'thunder', 'grapefruit', 'severe')",8,6,(3),3,False
+color,"('yellow', 'gooseberry', 'silver', 'coconut', 'blower', 'irritated', 'azure', 'strawberry', 'yacht', 'guilty')",10,3,(3),3,True
+emotion,"('surprised', 'sheep', 'track', 'chin', 'eyelash', 'boots', 'cargo', 'temple', 'horse', 'convertible')",10,1,(1),1,True
+building,"('pessimistic', 'hospital', 'mansion', 'empathetic', 'apricot', 'sun', 'khaki')",7,2,(2),2,True
+sport,"('sleet', 'hospital', 'climbing', 'wrist', 'bowling')",5,2,(1),1,False
+weather,"('bridge', 'horse', 'magenta', 'firetruck', 'raspberry', 'gentle', 'cow')",7,1,(0),0,False
+vehicle,"('durian', 'grateful', 'irritated', 'sympathetic', 'rickshaw')",5,1,(1),1,True
+emotion,"('grape', 'greenhouse', 'bikini', 'cricket', 'optimistic', 'overcast')",6,1,(1),1,True
+weather,"('drizzle', 'robe', 'frost', 'drill', 'cold', 'sailing', 'pruner', 'mild', 'gusty', 'sunny')",10,6,(4),4,False
+animal,"('chapel', 'intestine', 'flood', 'judo', 'baseball', 'gusty', 'coat')",7,0,(0),0,True
+fruit,"('indigo', 'kiwi', 'mango', 'cranberry', 'platinum', 'gooseberry', 'coconut')",7,5,(3),3,False
+body_part,"('bone', 'tram', 'neck', 'knee', 'calm', 'thigh', 'toe', 'foot', 'liver')",9,7,(5),5,False
+weather,"('cold', 'sleet', 'bus', 'cloudy', 'orange', 'snow', 'swimsuit', 'overcast', 'rain', 'cloud')",10,7,(5),5,False
+vehicle,"('subway', 'crane', 'snowplow', 'hair', 'leopard', 'speedboat', 'plane', 'hiking')",8,5,(3),3,False
+emotion,"('calm', 'gusty', 'angry', 'sad', 'annoyed', 'sympathetic', 'worried', 'trailer', 'shy', 'pleased')",10,8,(5),5,False
+color,"('lime', 'beige', 'gray', 'gloves', 'thankful')",5,3,(2),2,False
+vehicle,"('humidity', 'eyelash', 'kidney', 'brave', 'stomach', 'maroon', 'overcast')",7,0,(0),0,True
+building,"('cathedral', 'aquarium', 'eyebrow', 'skyscraper', 'factory', 'liver')",6,4,(2),2,False
+weather,"('dog', 'frost', 'cathedral', 'nose', 'elephant', 'motel', 'underwear', 'bronze', 'temple')",9,1,(1),1,True
+emotion,"('loving', 'confident', 'interested', 'content', 'depressed', 'calm', 'hopeful')",7,7,(4),4,False
+building,"('temple', 'chapel', 'church', 'cottage', 'marathon', 'chest')",6,4,(3),3,False
+building,"('liver', 'greenhouse', 'teal', 'passionfruit', 'tape')",5,1,(1),1,True
+clothing,"('skirt', 'jumpsuit', 'jacket', 'hoodie', 'scarf', 'tunic', 'swimsuit', 'blazer')",8,8,(8),8,True
+building,"('castle', 'bridge', 'store', 'tunnel', 'garage', 'peach', 'mosque', 'shed', 'school', 'mansion')",10,9,(5),5,False
+sport,"('crab', 'tricycle', 'duck', 'annoyed', 'car', 'bowling', 'shears')",7,1,(2),2,False
+body_part,"('gown', 'afraid', 'lychee', 'house', 'kidney', 'nail', 'hip')",7,3,(3),3,True
+vehicle,"('tanker', 'subway', 'kayak', 'basketball', 'hatchback', 'hunting', 'plane', 'cruise')",8,6,(4),4,False
+fruit,"('pomegranate', 'avocado', 'honeydew', 'nectarine', 'apple', 'tangerine')",6,6,(6),6,True
+weather,"('pearl', 'shower', 'hurricane', 'cloud', 'sun', 'ambulance', 'delivery', 'green')",8,4,(3),3,False
+building,"('planetarium', 'fort', 'lemon', 'aquarium', 'restaurant', 'cinema')",6,5,(3),3,False
+sport,"('hoodie', 'darts', 'hat', 'purple', 'camping', 'clear', 'stepladder', 'powerlifting')",8,3,(2),2,False
+building,"('tooth', 'clinic', 'convent', 'theater', 'house', 'restaurant', 'shop', 'warehouse')",8,7,(4),4,False
+tool,"('file', 'vise', 'pruner', 'chapel', 'mower', 'knife', 'lychee', 'lathe', 'temperature', 'saw')",10,7,(5),5,False
+clothing,"('underwear', 'overalls', 'tricycle', 'swimsuit', 'sandals', 'sweater', 'shirt', 'uniform')",8,7,(5),5,False
+animal,"('khaki', 'jellyfish', 'rowing', 'olive', 'karate', 'octopus', 'speedboat')",7,2,(2),2,True
+animal,"('bear', 'cardinal', 'crocodile', 'cow', 'rambutan', 'snake', 'crossfit', 'canary', 'kangaroo', 'ruler')",10,7,(5),5,False
+color,"('gooseberry', 'lavender', 'knife', 'caring', 'bear', 'rowing', 'speedboat', 'combine', 'heat', 'orange')",10,2,(2),2,True
+color,"('motorcycle', 'tanker', 'boat', 'nail', 'cheek', 'gusty', 'cheek', 'scissors')",8,0,(0),0,True
+weather,"('grapefruit', 'copper', 'cream', 'enthusiastic', 'bowling', 'shin', 'pilates')",7,0,(0),0,True
+fruit,"('delivery', 'crab', 'rambutan', 'beige', 'purple', 'cafe', 'lime')",7,2,(2),2,True
+emotion,"('hatchback', 'content', 'soccer', 'lingonberry', 'calm', 'loving', 'yacht')",7,3,(3),3,True
+vehicle,"('speedboat', 'pickup', 'snowplow', 'sedan', 'ferry', 'convertible', 'delivery')",7,7,(7),7,True
+tool,"('powerlifting', 'kidney', 'lavender', 'blower', 'squid')",5,1,(1),1,True
+body_part,"('thumb', 'head', 'chest', 'elbow', 'hair', 'waist', 'bone', 'forehead', 'toe')",9,9,(5),5,False
+weather,"('cyclone', 'pleased', 'hurricane', 'heat', 'bra')",5,3,(2),2,False
+fruit,"('grateful', 'cow', 'sheep', 'thigh', 'purple', 'storm', 'football')",7,0,(0),0,True
+fruit,"('hat', 'hippo', 'shin', 'monastery', 'jeans', 'boysenberry', 'squid', 'foot', 'trowel', 'dog')",10,1,(1),1,True
+emotion,"('arm', 'innocent', 'freezing', 'apricot', 'worried', 'heat', 'suit', 'bodybuilding', 'mouth', 'museum')",10,2,(2),2,True
+building,"('cow', 'karate', 'banana', 'store', 'jeans', 'scissors')",6,1,(1),1,True
+emotion,"('sandpaper', 'giraffe', 'climbing', 'brown', 'pruner', 'greenhouse')",6,0,(0),0,True
+body_part,"('face', 'powerlifting', 'eye', 'leg', 'eyelash', 'eyebrow', 'thigh', 'knee', 'muscle')",9,8,(5),5,False
+sport,"('pear', 'golf', 'baseball', 'pliers', 'sandpaper', 'climbing', 'tooth', 'purple')",8,3,(2),2,False
+vehicle,"('shears', 'blouse', 'muscle', 'calm', 'press', 'frog', 'back', 'camping', 'judo', 'breezy')",10,0,(0),0,True
+sport,"('soccer', 'track', 'climbing', 'rowing', 'yoga', 'hockey', 'rugby', 'billiards', 'karate')",9,9,(5),5,False
+weather,"('chin', 'bandsaw', 'stormy', 'freezing', 'bird', 'calm', 'robin', 'skiing', 'jigsaw', 'kayaking')",10,3,(3),3,True
+color,"('banana', 'dam', 'pigeon', 'sailboat', 'berry', 'turkey', 'tuxedo')",7,0,(1),1,False
+body_part,"('wrench', 'kayaking', 'jeans', 'head', 'elbow', 'cherry', 'fog', 'tongue', 'honeydew')",9,3,(3),3,True
+weather,"('red', 'calm', 'speedboat', 'skirt', 'cool', 'tongue', 'tooth', 'combine')",8,1,(2),2,False
+color,"('peach', 'orange', 'temple', 'burgundy', 'cream', 'gray', 'factory')",7,5,(3),3,False
+fruit,"('melon', 'silver', 'bone', 'rambutan', 'violet', 'ruler', 'green', 'satisfied')",8,2,(2),2,True
+building,"('garage', 'bridge', 'mall', 'greenhouse', 'university', 'market', 'skyscraper', 'cafe', 'house')",9,9,(5),5,False
+emotion,"('peaceful', 'curious', 'indigo', 'sad', 'guilty')",5,4,(2),2,False
+fruit,"('temperature', 'boysenberry', 'snake', 'avocado', 'cranberry', 'rambutan', 'pressure', 'mulberry', 'tennis', 'honeydew')",10,6,(5),5,False
+color,"('shy', 'coral', 'hatchback', 'freezing', 'thigh', 'muscle', 'square', 'temple', 'optimistic')",9,1,(1),1,True
+vehicle,"('semi', 'sedan', 'mist', 'bicycle', 'crane', 'police', 'snake', 'tanker')",8,6,(3),3,False
+tool,"('square', 'typhoon', 'aquarium', 'ladder', 'file', 'scissors')",6,4,(3),3,False
+clothing,"('jacket', 'vest', 'lychee', 'football', 'lung')",5,2,(2),2,True
+color,"('blue', 'guava', 'beige', 'whale', 'heel', 'rust', 'suit', 'silver')",8,4,(3),3,False
+clothing,"('square', 'watermelon', 'crab', 'pants', 'swimsuit', 'mild', 'hopeful', 'synagogue')",8,2,(2),2,True
+vehicle,"('chisel', 'bone', 'heels', 'tennis', 'grinder', 'ruler', 'khaki', 'orangutan', 'bunker', 'blazer')",10,0,(0),0,True
+body_part,"('ankle', 'cold', 'copper', 'dragonfruit', 'peach', 'hip', 'squid', 'skirt', 'heel', 'pigeon')",10,3,(3),3,True
+emotion,"('blower', 'goat', 'storm', 'plum', 'truck', 'lingonberry', 'lemon', 'jaw')",8,0,(0),0,True
+body_part,"('semi', 'wrist', 'bandsaw', 'passionfruit', 'shirt')",5,1,(1),1,True
+weather,"('temperature', 'toolbox', 'cream', 'bar', 'ice')",5,2,(0),0,False
+color,"('hopeful', 'cardigan', 'boat', 'store', 'violet')",5,1,(1),1,True
+building,"('fort', 'brown', 'panda', 'lighthouse', 'palace', 'canoe', 'parrot', 'market', 'muscle')",9,4,(2),2,False
+emotion,"('cyclone', 'shovel', 'lobster', 'taxi', 'gold')",5,0,(0),0,True
+building,"('aquarium', 'mosque', 'castle', 'heart', 'skyscraper', 'convent', 'bridge', 'yellow', 'speedboat')",9,6,(4),4,False
+animal,"('leopard', 'thumb', 'duck', 'crow', 'jellyfish', 'navy', 'goat', 'kangaroo', 'bored')",9,6,(4),4,False
+color,"('pink', 'cyan', 'dance', 'lime', 'cobalt', 'jaw')",6,4,(3),3,False
+fruit,"('lilac', 'turkey', 'cathedral', 'toe', 'semi', 'bicycle', 'boots', 'top', 'rhino', 'cathedral')",10,0,(0),0,True
+clothing,"('platinum', 'bridge', 'coat', 'blazer', 'hiking', 'file', 'watermelon', 'flood')",8,2,(2),2,True
+body_part,"('confident', 'khaki', 'sandpaper', 'koala', 'periwinkle')",5,0,(0),0,True
+vehicle,"('ship', 'hatchback', 'taxi', 'plane', 'scooter', 'speedboat', 'garbage', 'rickshaw')",8,8,(5),5,False
+fruit,"('interested', 'speedboat', 'jumpsuit', 'shears', 'kangaroo', 'silver', 'bridge')",7,0,(0),0,True
+emotion,"('irritated', 'depressed', 'nervous', 'climbing', 'calm')",5,4,(3),3,False
+color,"('silver', 'pink', 'aqua', 'ivory', 'kayak', 'scarlet', 'rambutan', 'black', 'gray')",9,7,(5),5,False
+color,"('cloudy', 'brown', 'maroon', 'hand', 'goose', 'blueberry', 'cathedral', 'black')",8,3,(3),3,True
+tool,"('press', 'annoyed', 'cinema', 'shy', 'suit')",5,1,(0),0,False
+emotion,"('surprised', 'grateful', 'kangaroo', 'flood', 'press', 'sunny', 'humidity', 'waist', 'goose')",9,2,(2),2,True
+weather,"('calm', 'clear', 'ice', 'blizzard', 'severe', 'hot', 'lychee')",7,6,(3),3,False
+clothing,"('romper', 'blazer', 'skin', 'football', 'heart')",5,2,(2),2,True
+vehicle,"('shorts', 'convertible', 'gown', 'garbage', 'welder', 'firetruck', 'cargo', 'bike', 'chisel', 'rickshaw')",10,6,(3),3,False
+body_part,"('dew', 'eyelash', 'iguana', 'watermelon', 'bone', 'pleased', 'press', 'loafers', 'skirt', 'temple')",10,2,(3),3,False
+fruit,"('wind', 'gooseberry', 'tape', 'tram', 'starfruit', 'mouse', 'temple', 'windmill')",8,2,(2),2,True
+tool,"('jackfruit', 'innocent', 'pruner', 'cricket', 'lobster', 'knife', 'melon', 'file', 'skateboard', 'gorilla')",10,3,(3),3,True
+body_part,"('lion', 'iguana', 'palace', 'stomach', 'wolf')",5,1,(1),1,True
+tool,"('van', 'yacht', 'ruler', 'chisel', 'wrench', 'lingonberry', 'cow', 'fishing')",8,3,(3),3,True
+tool,"('vise', 'anvil', 'shop', 'mower', 'scissors', 'square', 'rake', 'pickaxe', 'sandpaper', 'lathe')",10,9,(5),5,False
+body_part,"('sympathetic', 'museum', 'overalls', 'temple', 'apricot', 'eyebrow', 'liver')",7,3,(3),3,True
+weather,"('sad', 'dress', 'brown', 'hoodie', 'platinum', 'brown', 'train', 'mouth', 'currant', 'calm')",10,1,(0),0,False
+building,"('museum', 'house', 'office', 'motel', 'synagogue', 'trowel', 'mosque', 'greenhouse', 'market')",9,8,(5),5,False
+sport,"('hoe', 'bike', 'wind', 'level', 'shoes')",5,0,(2),2,False
+color,"('olive', 'teal', 'golf', 'magenta', 'bronze', 'ship', 'violet', 'hail', 'curious')",9,5,(3),3,False
+vehicle,"('convertible', 'wagon', 'police', 'plane', 'trailer', 'compressor', 'limousine', 'pickup', 'harvester')",9,8,(5),5,False
+clothing,"('swimsuit', 'skirt', 'jacket', 'hat', 'pants', 'sneakers', 'cheetah', 'top')",8,7,(5),5,False
+clothing,"('jeans', 'cardigan', 'koala', 'shin', 'square', 'overalls', 'university', 'tunic')",8,4,(3),3,False
+animal,"('mango', 'duck', 'tractor', 'alligator', 'fish', 'lilac', 'shy', 'proud')",8,3,(3),3,True
+sport,"('wrench', 'scooter', 'eyelash', 'fort', 'skateboard', 'chin', 'forehead', 'frost')",8,1,(2),2,False
+building,"('empathetic', 'platinum', 'ship', 'tan', 'owl', 'restaurant', 'tennis', 'eye')",8,1,(1),1,True
+vehicle,"('rowing', 'parrot', 'afraid', 'truck', 'screwdriver', 'aquarium', 'silver', 'crow', 'pleased', 'dress')",10,1,(1),1,True
+fruit,"('cafe', 'temple', 'motorcycle', 'trousers', 'violet', 'bulldozer')",6,0,(0),0,True
+tool,"('chisel', 'level', 'tape', 'screwdriver', 'temple', 'saw', 'pickaxe', 'scissors')",8,7,(4),4,False
+weather,"('dam', 'hail', 'tricycle', 'bandsaw', 'sailing', 'billiards', 'snowplow')",7,1,(2),2,False
+weather,"('flood', 'mist', 'blizzard', 'dance', 'elephant', 'rain', 'severe', 'shoulder', 'hurricane', 'calm')",10,7,(4),4,False
+tool,"('lathe', 'tractor', 'bar', 'yoga', 'house', 'hoe', 'periwinkle', 'cap')",8,2,(2),2,True
+sport,"('berry', 'market', 'hiking', 'cardigan', 'gloves', 'pliers', 'tractor', 'peaceful', 'ear', 'crowbar')",10,1,(2),2,False
+body_part,"('sympathetic', 'skirt', 'fish', 'mouse', 'knife', 'ivory', 'surfing')",7,0,(0),0,True
+emotion,"('excited', 'annoyed', 'papaya', 'surprised', 'nervous', 'top', 'interested')",7,5,(3),3,False
+animal,"('blackberry', 'lavender', 'snake', 'orange', 'jellyfish', 'theater', 'hippo', 'leopard', 'romper', 'duck')",10,5,(4),4,False
+tool,"('square', 'scissors', 'bus', 'blower', 'trowel', 'sailboat', 'mouth', 'level')",8,5,(3),3,False
+fruit,"('raspberry', 'severe', 'plane', 'yellow', 'sandpaper')",5,1,(1),1,True
+body_part,"('muscle', 'pressure', 'tie', 'chicken', 'trimmer', 'office', 'skin', 'stomach', 'jaw', 'hat')",10,4,(4),4,True
+sport,"('hockey', 'boxing', 'snowplow', 'cycling', 'baseball', 'camping', 'fishing', 'rugby', 'temple', 'police')",10,7,(4),4,False
+emotion,"('grateful', 'bored', 'proud', 'fascinated', 'nervous', 'afraid', 'confident', 'amazed', 'sad', 'orange')",10,9,(6),6,False
+clothing,"('swimsuit', 'lemon', 'pajamas', 'pants', 'blouse')",5,4,(3),3,False
+emotion,"('calm', 'worried', 'brave', 'irritated', 'afraid', 'optimistic', 'confused', 'ecstatic')",8,8,(5),5,False
+building,"('ship', 'planetarium', 'palace', 'apartment', 'kayak', 'scarf', 'store')",7,4,(3),3,False
+animal,"('panther', 'squid', 'lion', 'lizard', 'dog', 'alligator')",6,6,(5),5,False
+emotion,"('scared', 'neck', 'sun', 'gentle', 'blueberry', 'irritated', 'windy')",7,2,(2),2,True
+body_part,"('vest', 'tram', 'tornado', 'tongue', 'thumb', 'ear', 'mist')",7,3,(3),3,True
+building,"('mall', 'cathedral', 'shed', 'shoulder', 'foot', 'lathe', 'synagogue', 'store', 'soccer')",9,5,(3),3,False
+emotion,"('temple', 'innocent', 'enthusiastic', 'cardinal', 'passionate', 'content', 'anxious')",7,5,(4),4,False
+body_part,"('foot', 'tongue', 'bored', 'jaw', 'intestine')",5,4,(3),3,False
+color,"('black', 'scooter', 'bird', 'poncho', 'boat', 'grateful', 'hurricane')",7,1,(1),1,True
+sport,"('cricket', 'rowing', 'soccer', 'taekwondo', 'billiards', 'boxing', 'skiing', 'baseball', 'track')",9,9,(6),6,False
+building,"('toad', 'library', 'windmill', 'mall', 'house', 'chisel', 'shed')",7,5,(3),3,False
+building,"('mansion', 'innocent', 'back', 'church', 'loafers', 'empathetic', 'bridge', 'lighthouse', 'store')",9,5,(3),3,False
+weather,"('shower', 'thunder', 'drizzle', 'cloud', 'windy', 'ice', 'calm', 'clear', 'cold')",9,9,(5),5,False
+building,"('snowboard', 'mosque', 'market', 'gown', 'ivory', 'cricket', 'slippers')",7,2,(1),1,False
+animal,"('strawberry', 'bone', 'rhino', 'coat', 'eagle')",5,2,(2),2,True
+emotion,"('teal', 'pajamas', 'warehouse', 'wrestling', 'peaceful', 'confused', 'happy', 'amazed')",8,4,(3),3,False
+color,"('silver', 'rowing', 'gray', 'scared', 'annoyed', 'mosque')",6,2,(2),2,True
+weather,"('olive', 'sailboat', 'market', 'freezing', 'bear', 'cold', 'press', 'wagon', 'hiking', 'thumb')",10,2,(2),2,True
+color,"('lung', 'nervous', 'periwinkle', 'peach', 'owl', 'maroon', 'copper', 'fuchsia')",8,5,(4),4,False
+vehicle,"('taxi', 'sailboat', 'speedboat', 'jet', 'lobster', 'melon', 'mower')",7,4,(3),3,False
+vehicle,"('hatchback', 'pickup', 'speedboat', 'passionate', 'semi')",5,4,(2),2,False
+vehicle,"('convertible', 'excavator', 'caring', 'tricycle', 'shears', 'garbage', 'snowplow')",7,5,(3),3,False
+color,"('beige', 'brown', 'tan', 'hiking', 'indigo', 'ankle')",6,4,(3),3,False
+body_part,"('thigh', 'chin', 'skin', 'temple', 'muscle', 'drizzle', 'tongue', 'knee', 'eye', 'leg')",10,9,(5),5,False
+clothing,"('sparrow', 'belt', 'shoes', 'trousers', 'clinic', 'cycling', 'tape', 'blazer')",8,4,(3),3,False
+color,"('tie', 'gloves', 'jumpsuit', 'knee', 'passionfruit', 'hippo')",6,0,(0),0,True
+body_part,"('nose', 'heel', 'shin', 'cobalt', 'stomach', 'date', 'jaw', 'face')",8,6,(4),4,False
+fruit,"('crowbar', 'dew', 'scarlet', 'ankle', 'square', 'skyscraper', 'orange')",7,1,(1),1,True
+sport,"('skateboard', 'cardigan', 'tape', 'gentle', 'eyelash', 'trowel', 'hoodie', 'cruise', 'top')",9,1,(1),1,True
+weather,"('pomegranate', 'cloudy', 'dew', 'papaya', 'chicken', 'crowbar', 'pliers', 'chimpanzee', 'gloves')",9,2,(2),2,True
+tool,"('screwdriver', 'spade', 'pickaxe', 'chisel', 'grinder', 'welder', 'shovel', 'pants', 'press', 'wrench')",10,9,(5),5,False
+weather,"('cloudy', 'gentle', 'billiards', 'flats', 'sun', 'pajamas')",6,3,(2),2,False
+tool,"('knife', 'toolbox', 'crane', 'level', 'humidity')",5,3,(2),2,False
+weather,"('drizzle', 'humidity', 'aerobics', 'ice', 'typhoon', 'overcast', 'bar', 'tricycle', 'fierce')",9,6,(3),3,False
+body_part,"('arm', 'shoulder', 'vest', 'chin', 'hat', 'temple', 'stomach', 'jaw', 'hair')",9,7,(5),5,False
+fruit,"('snake', 'typhoon', 'apricot', 'strawberry', 'cloudberry', 'blackberry', 'tangerine', 'berry')",8,6,(5),5,False
+building,"('knife', 'pajamas', 'nose', 'tunnel', 'angry')",5,1,(1),1,True
+sport,"('cheerleading', 'leg', 'skateboard', 'archery', 'rugby', 'flats')",6,4,(3),3,False
+weather,"('gloves', 'aqua', 'hail', 'market', 'peaceful', 'heels')",6,1,(1),1,True
+tool,"('pruner', 'boysenberry', 'leopard', 'overalls', 'knife')",5,2,(2),2,True
+clothing,"('diving', 'suit', 'blazer', 'cardigan', 'swimsuit', 'shoes', 'muscle')",7,5,(3),3,False
+vehicle,"('subway', 'limousine', 'bicycle', 'whale', 'helicopter', 'tram', 'lion', 'pressure', 'guava', 'convent')",10,5,(3),3,False
+body_part,"('fencing', 'iguana', 'convertible', 'intestine', 'billiards')",5,1,(1),1,True
+vehicle,"('garbage', 'confident', 'tennis', 'ambulance', 'canoe', 'thunder', 'papaya')",7,3,(1),1,False
+animal,"('octopus', 'bird', 'cardinal', 'squid', 'sparrow', 'giraffe', 'papaya', 'mouse', 'robin')",9,8,(5),5,False
+animal,"('volleyball', 'house', 'bra', 'romper', 'proud', 'chisel', 'rambutan', 'peach', 'greenhouse')",9,0,(2),2,False
+sport,"('golf', 'crossfit', 'judo', 'stormy', 'loving', 'weightlifting', 'rowing')",7,5,(4),4,False
+building,"('observatory', 'temple', 'fort', 'football', 'lighthouse', 'cabin')",6,5,(3),3,False
+color,"('burgundy', 'ivory', 'purple', 'rust', 'navy', 'sweater', 'scarlet')",7,6,(4),4,False
+sport,"('blizzard', 'cheetah', 'passionate', 'top', 'silver', 'bear', 'passionate', 'silver', 'dam', 'rabbit')",10,0,(0),0,True
+weather,"('scarlet', 'robin', 'temple', 'afraid', 'dress', 'shoes', 'navy', 'excavator', 'convent')",9,0,(0),0,True
+animal,"('koala', 'pajamas', 'silver', 'owl', 'rhino', 'ecstatic', 'maroon', 'panda', 'grinder')",9,4,(3),3,False
+vehicle,"('hammer', 'tractor', 'welder', 'boat', 'thunder', 'boots', 'boots', 'jigsaw')",8,2,(2),2,True
+weather,"('thunder', 'leg', 'humidity', 'gooseberry', 'drill', 'combine', 'mist')",7,3,(2),2,False
+sport,"('overalls', 'rickshaw', 'mall', 'combine', 'scarf')",5,0,(0),0,True
+weather,"('fog', 'severe', 'lightning', 'hot', 'warm', 'wind')",6,6,(2),2,False
+body_part,"('gray', 'elated', 'church', 'brown', 'rickshaw', 'mouth', 'heel')",7,2,(2),2,True
+color,"('pearl', 'persimmon', 'platinum', 'coral', 'ivory', 'bronze')",6,5,(3),3,False
+color,"('copper', 'press', 'red', 'black', 'gold', 'khaki')",6,5,(3),3,False
+fruit,"('elderberry', 'forklift', 'watermelon', 'interested', 'durian', 'lychee', 'guava', 'olive')",8,5,(5),5,True
+body_part,"('fog', 'foot', 'tie', 'elated', 'top', 'tongue', 'synagogue', 'ear', 'dolphin')",9,3,(4),4,False
+emotion,"('proud', 'top', 'leopard', 'hoodie', 'convent', 'fascinated')",6,2,(2),2,True
+color,"('azure', 'white', 'black', 'rickshaw', 'violet', 'red', 'raspberry')",7,5,(3),3,False
+building,"('apple', 'palace', 'powerlifting', 'observatory', 'pear', 'grapefruit')",6,2,(2),2,True
+sport,"('crossfit', 'tan', 'scarlet', 'snowboard', 'platinum', 'wrench')",6,2,(2),2,True
+building,"('silver', 'library', 'curious', 'router', 'finger')",5,1,(1),1,True
+fruit,"('hoodie', 'lion', 'blueberry', 'lingonberry', 'cranberry', 'starfruit')",6,4,(3),3,False
+sport,"('cap', 'bodybuilding', 'aquarium', 'severe', 'golf', 'volleyball', 'coat', 'lingonberry', 'bowling', 'starfruit')",10,4,(3),3,False
+emotion,"('excited', 'ashamed', 'innocent', 'sympathetic', 'shocked', 'typhoon')",6,5,(3),3,False
+sport,"('hunting', 'aerobics', 'shoulder', 'peaceful', 'tennis', 'gymnastics', 'climbing', 'cantaloupe', 'kayaking', 'marathon')",10,7,(5),5,False
+weather,"('heat', 'elderberry', 'tunic', 'mulberry', 'lavender', 'freezing')",6,2,(0),0,False
+tool,"('shovel', 'ruler', 'welder', 'trowel', 'crowbar', 'scissors')",6,6,(3),3,False
+vehicle,"('bird', 'cargo', 'subway', 'volleyball', 'lathe')",5,2,(1),1,False
+emotion,"('empathetic', 'proud', 'shy', 'fascinated', 'calm', 'irritated')",6,6,(3),3,False
+sport,"('sad', 'bear', 'lychee', 'boxing', 'cloudy')",5,1,(1),1,True
+emotion,"('nose', 'hiking', 'cheek', 'angry', 'amazed', 'calm', 'sympathetic', 'breezy', 'satisfied', 'irritated')",10,6,(5),5,False
+tool,"('guava', 'snowplow', 'shoulder', 'forklift', 'forklift', 'hopeful')",6,0,(2),2,False
+weather,"('pressure', 'canoe', 'ice', 'scooter', 'tower', 'gusty', 'mild', 'cafe', 'baseball')",9,4,(3),3,False
+tool,"('hatchback', 'compressor', 'stepladder', 'nectarine', 'convent', 'jumpsuit', 'jigsaw')",7,3,(2),2,False
+fruit,"('thumb', 'horse', 'stepladder', 'rabbit', 'anxious', 'apartment', 'chapel')",7,0,(0),0,True
+fruit,"('arm', 'gloves', 'blueberry', 'eyebrow', 'crane', 'underwear', 'apple')",7,2,(2),2,True
+animal,"('watermelon', 'hawk', 'shrimp', 'turkey', 'dog', 'weightlifting')",6,4,(3),3,False
+vehicle,"('jet', 'subway', 'yacht', 'speedboat', 'tricycle', 'train', 'harvester', 'bulldozer', 'tram')",9,9,(5),5,False
+clothing,"('climbing', 'bus', 'turtle', 'watermelon', 'silver', 'bone', 'temple')",7,0,(0),0,True
+vehicle,"('back', 'shy', 'olive', 'passionate', 'watermelon', 'lathe', 'giraffe', 'market', 'ferry', 'heel')",10,1,(1),1,True
+weather,"('hail', 'freezing', 'eyebrow', 'warm', 'overcast', 'downpour', 'tornado', 'sleet', 'rain')",9,8,(5),5,False
+weather,"('scooter', 'wind', 'van', 'rickshaw', 'tiger', 'hopeful')",6,1,(1),1,True
+sport,"('compassionate', 'anxious', 'coral', 'nail', 'head')",5,0,(0),0,True
+fruit,"('grape', 'mulberry', 'orange', 'coconut', 'guava', 'passionfruit', 'plum', 'banana', 'apricot', 'berry')",10,10,(7),7,False
+emotion,"('bored', 'brave', 'durian', 'anxious', 'blazer', 'fascinated', 'sympathetic', 'sweater')",8,5,(4),4,False
+tool,"('compressor', 'lathe', 'trowel', 'file', 'hammer', 'scissors', 'shears')",7,7,(3),3,False
+weather,"('waist', 'stormy', 'tram', 'garbage', 'severe', 'dress', 'drizzle', 'mist', 'swimming', 'typhoon')",10,5,(3),3,False
+clothing,"('top', 'poncho', 'ivory', 'dress', 'gown', 'blouse', 'loafers', 'trousers')",8,7,(5),5,False
+color,"('crimson', 'green', 'azure', 'rust', 'coral', 'magenta', 'cheerleading')",7,6,(4),4,False
+body_part,"('pink', 'belt', 'green', 'blazer', 'helicopter', 'cream')",6,0,(0),0,True
+color,"('yellow', 'kiwi', 'garbage', 'blueberry', 'market', 'bowling', 'robe', 'rickshaw', 'excavator')",9,1,(2),2,False
+animal,"('crocodile', 'goat', 'monkey', 'climbing', 'aerobics', 'iguana', 'ruler', 'cardinal', 'snake', 'suit')",10,6,(4),4,False
+building,"('innocent', 'tunic', 'scared', 'shirt', 'chapel', 'red', 'pressure', 'passionate', 'curious')",9,1,(1),1,True
+weather,"('sunny', 'wind', 'gentle', 'heat', 'stomach', 'mosque')",6,4,(2),2,False
+weather,"('pliers', 'frost', 'excited', 'severe', 'blizzard')",5,3,(2),2,False
+weather,"('cyclone', 'eyebrow', 'panda', 'hurricane', 'snow', 'typhoon', 'mist', 'rain', 'hopeful', 'warm')",10,7,(5),5,False
+emotion,"('fascinated', 'irritated', 'sad', 'surprised', 'ambulance', 'peaceful')",6,5,(3),3,False
+color,"('deer', 'burgundy', 'white', 'maroon', 'lilac', 'gray', 'toolbox', 'mouth', 'fuchsia')",9,6,(5),5,False
+clothing,"('monastery', 'ecstatic', 'pilates', 'passionate', 'chainsaw', 'bulldozer', 'persimmon')",7,0,(0),0,True
+emotion,"('sympathetic', 'jackfruit', 'thankful', 'fierce', 'satisfied', 'bored')",6,4,(3),3,False
+tool,"('eyelash', 'saw', 'drill', 'grinder', 'frost', 'shears', 'pliers')",7,5,(4),4,False
+building,"('hat', 'shocked', 'aquarium', 'lion', 'bunker', 'hospital', 'socks', 'cat', 'chapel')",9,4,(3),3,False
+body_part,"('office', 'planetarium', 'heart', 'vest', 'shin', 'hoe', 'rust', 'proud', 'lemon', 'motel')",10,2,(3),3,False
+color,"('climbing', 'tornado', 'drill', 'restaurant', 'castle')",5,0,(0),0,True
+tool,"('kayaking', 'scissors', 'sympathetic', 'crowbar', 'chisel', 'toolbox', 'bandsaw', 'welder', 'grinder')",9,7,(5),5,False
+vehicle,"('snowplow', 'billiards', 'wagon', 'shoulder', 'convertible')",5,3,(2),2,False
+animal,"('coral', 'thigh', 'uniform', 'anvil', 'elephant', 'cafe', 'tiger')",7,2,(2),2,True
+tool,"('dolphin', 'screwdriver', 'ice', 'warehouse', 'pink', 'dew', 'rake', 'skirt', 'freezing')",9,2,(2),2,True
+fruit,"('tractor', 'avocado', 'cherry', 'apple', 'honeydew', 'starfruit')",6,5,(4),4,False
+fruit,"('berry', 'boysenberry', 'currant', 'pomegranate', 'dragonfruit', 'avocado')",6,6,(5),5,False
+vehicle,"('thunder', 'crane', 'planetarium', 'boysenberry', 'cottage', 'sedan', 'panther', 'semi')",8,3,(2),2,False
+body_part,"('boysenberry', 'pleased', 'house', 'train', 'downpour', 'toolbox', 'shy', 'tanker', 'cyan')",9,0,(0),0,True
+clothing,"('cap', 'poncho', 'cyan', 'top', 'sneakers', 'pajamas', 'bikini')",7,6,(4),4,False
+emotion,"('sheep', 'sad', 'brave', 'ecstatic', 'ashamed', 'gusty', 'amazed', 'skiing', 'guilty', 'curious')",10,7,(5),5,False
+weather,"('papaya', 'cycling', 'dew', 'trousers', 'flats', 'lion')",6,1,(1),1,True
+clothing,"('bicycle', 'goose', 'ice', 'pruner', 'flood', 'grinder', 'climbing', 'shorts')",8,1,(1),1,True
+sport,"('firetruck', 'tuxedo', 'pomegranate', 'grape', 'taekwondo', 'pilates', 'cantaloupe', 'hockey')",8,3,(2),2,False
+weather,"('cool', 'shower', 'wind', 'sun', 'train')",5,4,(2),2,False
+tool,"('navy', 'bandsaw', 'ice', 'rake', 'clamp', 'baseball', 'kidney', 'sandpaper', 'liver', 'trowel')",10,5,(4),4,False
+color,"('lime', 'pink', 'synagogue', 'lilac', 'green', 'bronze', 'magenta')",7,6,(4),4,False
+clothing,"('police', 'apple', 'elbow', 'cyclone', 'watermelon', 'shears', 'lightning', 'convent', 'jackfruit')",9,0,(0),0,True
+tool,"('vise', 'rake', 'screwdriver', 'olive', 'press', 'ankle', 'mouth')",7,4,(2),2,False
+vehicle,"('swimming', 'rickshaw', 'shop', 'fishing', 'tooth', 'bulldozer', 'flood')",7,2,(2),2,True
+fruit,"('intestine', 'fig', 'hat', 'bunker', 'chest', 'orange', 'navy', 'coconut')",8,3,(3),3,True
+fruit,"('squid', 'pliers', 'fuchsia', 'convertible', 'market', 'koala', 'face', 'van', 'convent', 'peach')",10,1,(1),1,True
+clothing,"('shirt', 'tiger', 'lathe', 'hoodie', 'lung', 'socks', 'cottage', 'poncho', 'parrot')",9,4,(4),4,True
+tool,"('shy', 'sandpaper', 'indigo', 'spade', 'turkey', 'ladder', 'garage', 'annoyed', 'compressor', 'workbench')",10,5,(3),3,False
+weather,"('crossfit', 'knife', 'jaguar', 'vise', 'fish', 'cheerleading')",6,0,(0),0,True
+building,"('dam', 'church', 'restaurant', 'tunnel', 'university', 'barn', 'fort')",7,7,(3),3,False
+building,"('aquarium', 'mist', 'mosque', 'pearl', 'cottage', 'tower')",6,4,(3),3,False
+sport,"('blouse', 'teal', 'fishing', 'rowing', 'periwinkle', 'blazer')",6,2,(2),2,True
+body_part,"('jaw', 'liver', 'lung', 'toe', 'forehead', 'elbow', 'shoulder')",7,7,(7),7,True
+color,"('windmill', 'purple', 'beige', 'compassionate', 'cobalt', 'copper', 'orange', 'white')",8,6,(4),4,False
+vehicle,"('cabin', 'tanker', 'wagon', 'hiking', 'sedan', 'mansion', 'green')",7,3,(2),2,False
+clothing,"('blueberry', 'track', 'leopard', 'sweater', 'enthusiastic', 'hospital', 'mouth')",7,1,(1),1,True
+body_part,"('thigh', 'eyebrow', 'hand', 'wrist', 'excited', 'toe', 'tooth', 'office', 'heart')",9,7,(5),5,False
+clothing,"('shoes', 'tunic', 'suit', 'sneakers', 'bra', 'shorts', 'jeans', 'blazer')",8,8,(8),8,True
+color,"('depressed', 'worried', 'periwinkle', 'lilac', 'pliers', 'suit', 'hammer', 'snake', 'crow', 'indigo')",10,3,(3),3,True
+weather,"('bikini', 'mosque', 'persimmon', 'tractor', 'fierce', 'severe', 'grape', 'scared')",8,2,(0),0,False
+tool,"('mulberry', 'ruler', 'grinder', 'parrot', 'afraid', 'rake', 'market', 'library', 'heel', 'scared')",10,3,(3),3,True
+building,"('thigh', 'peaceful', 'shop', 'grape', 'bikini', 'bunker', 'shed')",7,3,(2),2,False
+vehicle,"('harvester', 'jaw', 'excavator', 'helicopter', 'tram', 'lion', 'boat', 'pickup', 'blizzard', 'taxi')",10,7,(5),5,False
+color,"('crimson', 'khaki', 'burgundy', 'azure', 'scarlet', 'navy', 'cream')",7,7,(5),5,False
+clothing,"('confident', 'finger', 'crocodile', 'apple', 'coat')",5,1,(1),1,True
+vehicle,"('pajamas', 'hawk', 'canoe', 'face', 'azure', 'scooter', 'ladder', 'parrot', 'grinder', 'dance')",10,2,(2),2,True
+clothing,"('pants', 'gown', 'warehouse', 'semi', 'boysenberry', 'romper', 'bra', 'top')",8,5,(5),5,True
+tool,"('lingonberry', 'cherry', 'apartment', 'fascinated', 'cap', 'chisel', 'coat', 'market', 'hurricane', 'frost')",10,1,(2),2,False
+color,"('anxious', 'burgundy', 'maroon', 'skin', 'black', 'brown')",6,4,(3),3,False
+emotion,"('pigeon', 'skin', 'knife', 'pickaxe', 'dance')",5,0,(0),0,True
+body_part,"('marathon', 'fig', 'sneakers', 'gold', 'tooth', 'vise', 'leg', 'rain')",8,2,(3),3,False
+sport,"('surfing', 'snowboard', 'mall', 'turtle', 'golf', 'shovel', 'bodybuilding', 'camping')",8,5,(4),4,False
+tool,"('delivery', 'forehead', 'blower', 'jet', 'sneakers', 'jigsaw', 'fog', 'pliers')",8,3,(3),3,True
+clothing,"('poncho', 'magenta', 'bulldozer', 'drought', 'hoodie', 'lung', 'office', 'hurricane', 'coral', 'gown')",10,3,(3),3,True
+body_part,"('boysenberry', 'passionfruit', 'strawberry', 'trowel', 'back', 'pleased', 'skin', 'sweater', 'sunny', 'persimmon')",10,2,(3),3,False
+body_part,"('back', 'muscle', 'soccer', 'hip', 'pink', 'shower', 'shoulder', 'turtle')",8,4,(3),3,False
+body_part,"('skiing', 'suit', 'fierce', 'raspberry', 'peach')",5,0,(0),0,True
+vehicle,"('tanker', 'dance', 'speedboat', 'combine', 'cargo', 'plane', 'bicycle', 'tractor', 'scooter')",9,8,(4),4,False
+clothing,"('jumpsuit', 'overalls', 'coat', 'robe', 'romper', 'sandals', 'bikini')",7,7,(6),6,False
+weather,"('sedan', 'currant', 'shower', 'slippers', 'poncho', 'kiwi', 'kayaking', 'yellow')",8,1,(2),2,False
+tool,"('hat', 'face', 'pants', 'helicopter', 'pleased', 'wrench')",6,1,(1),1,True
+body_part,"('shoulder', 'curious', 'face', 'ear', 'temple')",5,4,(3),3,False
+color,"('dog', 'tricycle', 'trowel', 'boat', 'guilty', 'bronze')",6,1,(1),1,True
+clothing,"('gloves', 'swimsuit', 'skirt', 'hoodie', 'bra', 'tunic')",6,6,(6),6,True
+emotion,"('grateful', 'curious', 'caring', 'happy', 'elated', 'nervous', 'worried', 'back', 'passionate')",9,8,(6),6,False
+vehicle,"('curious', 'nail', 'bear', 'cardigan', 'bulldozer', 'tunic', 'salmon', 'annoyed', 'nervous')",9,1,(1),1,True
+tool,"('grinder', 'vise', 'trowel', 'clamp', 'calm', 'loving')",6,4,(3),3,False
+vehicle,"('van', 'pickup', 'hatchback', 'trailer', 'subway')",5,5,(3),3,False
+sport,"('innocent', 'head', 'climbing', 'archery', 'wrestling', 'cycling', 'garage', 'frustrated', 'hoe', 'taekwondo')",10,5,(4),4,False
+weather,"('cool', 'skin', 'sailing', 'temperature', 'bikini', 'gentle', 'cold', 'goat', 'fierce', 'ecstatic')",10,5,(2),2,False
+vehicle,"('helicopter', 'hip', 'cruise', 'deer', 'tie', 'truck', 'train', 'tram')",8,5,(3),3,False
+color,"('mango', 'shovel', 'gown', 'fog', 'speedboat', 'stomach', 'humidity', 'cantaloupe', 'hopeful')",9,0,(0),0,True
+emotion,"('apple', 'loving', 'chest', 'proud', 'arm')",5,2,(2),2,True
+animal,"('nose', 'sailing', 'shrimp', 'watermelon', 'rake', 'pickup', 'lung', 'drill', 'confident', 'chicken')",10,2,(2),2,True
+weather,"('bra', 'frost', 'dew', 'gentle', 'cool', 'freezing', 'flood', 'volleyball')",8,6,(3),3,False
+tool,"('screwdriver', 'crow', 'ladder', 'pruner', 'saw', 'level', 'wrench')",7,6,(4),4,False
+clothing,"('hat', 'jeans', 'romper', 'gloves', 'durian')",5,4,(3),3,False
+body_part,"('liver', 'crimson', 'windy', 'berry', 'grinder', 'convent', 'mosque')",7,1,(1),1,True
+animal,"('iguana', 'monkey', 'top', 'frog', 'turtle', 'helicopter')",6,4,(3),3,False
+tool,"('saw', 'baseball', 'knee', 'shark', 'judo', 'suit', 'monastery', 'bandsaw', 'violet')",9,2,(2),2,True

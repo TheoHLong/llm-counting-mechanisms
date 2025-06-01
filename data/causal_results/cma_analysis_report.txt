@@ -1,0 +1,102 @@
+============================================================
+CAUSAL MEDIATION ANALYSIS REPORT
+Counting Task - Hidden State Analysis
+============================================================
+
+1. OVERALL STATISTICS
+----------------------------------------
+Total samples: 200
+Layers tested: [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9), np.int64(10), np.int64(11), np.int64(12), np.int64(13), np.int64(14), np.int64(15), np.int64(16), np.int64(17), np.int64(18), np.int64(19)]
+Mean |TE|: 0.800
+Mean |IE|: 0.540
+
+Model Accuracy:
+  Original prompts: 90.00%
+  Intervention prompts: 80.00%
+
+2. TOP COUNTING LAYERS
+----------------------------------------
+Layers most likely to contain running count representations:
+
+Rank 1: Layer 0
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 2: Layer 1
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 3: Layer 2
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 4: Layer 3
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 5: Layer 4
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 6: Layer 5
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 7: Layer 6
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 8: Layer 7
+  - Counting Score: 3.500
+  - IE/TE Ratio: 1.000
+  - Position Sensitivity: 0.400
+  - Mean |IE|: 0.800
+
+Rank 9: Layer 8
+  - Counting Score: 3.312
+  - IE/TE Ratio: 0.875
+  - Position Sensitivity: 0.600
+  - Mean |IE|: 0.700
+
+Rank 10: Layer 9
+  - Counting Score: 3.312
+  - IE/TE Ratio: 0.875
+  - Position Sensitivity: 0.600
+  - Mean |IE|: 0.700
+
+
+3. POSITION EFFECTS ANALYSIS
+----------------------------------------
+Best layer (0) position effects:
+  - early: |IE| = 1.000
+  - middle: |IE| = 1.000
+  - late: |IE| = 0.600
+
+4. KEY FINDINGS
+----------------------------------------
+- 14 layers show strong mediation (IE/TE > 0.3)
+- 15 layers show position sensitivity
+- Top 3 candidate layers: [0, 1, 2]
+
+5. RECOMMENDATIONS
+----------------------------------------
+Based on the analysis:
+1. Layer 0 shows strongest evidence of counting
+2. Consider further investigation with:
+   - Probing classifiers on these layers
+   - Visualization of activation patterns
+   - Testing on more complex counting tasks

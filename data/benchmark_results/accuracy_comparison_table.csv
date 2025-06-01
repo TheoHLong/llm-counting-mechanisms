@@ -1,0 +1,4 @@
+Model,Overall Accuracy,Animal Acc,Body_part Acc,Building Acc,Clothing Acc,Color Acc,Emotion Acc,Fruit Acc,Sport Acc,Tool Acc,Vehicle Acc,Weather Acc
+Phi-4,65.5%,73.4%,69.6%,32.9%,77.3%,71.9%,75.3%,94.2%,63.9%,60.9%,53.5%,48.2%
+Qwen3 8B,40.0%,45.7%,39.2%,25.3%,59.1%,39.3%,47.2%,57.0%,34.9%,31.5%,31.4%,30.4%
+Llama 3.1 8B,31.9%,39.4%,51.0%,15.2%,37.5%,34.8%,40.4%,44.2%,24.1%,20.7%,17.4%,23.2%

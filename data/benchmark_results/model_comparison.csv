@@ -1,0 +1,4 @@
+model,overall_accuracy,total_examples,correct_count
+microsoft/phi-4,0.655,1000,655
+Qwen/Qwen3-8B,0.4,1000,400
+meta-llama/Meta-Llama-3.1-8B-Instruct,0.319,1000,319
